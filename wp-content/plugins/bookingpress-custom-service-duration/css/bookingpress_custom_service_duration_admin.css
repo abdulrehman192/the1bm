@@ -1,0 +1,42 @@
+/* Addon - Custom Duration & Pricing Starts */
+
+.bpa--multislot-module-card .bpa-mmc__slot-items .bpa-mmc__slot-item:not(.bpa-mmc__slot-item-no-flex){
+	display: flex;
+	align-items: flex-end;
+}
+.bpa-mmc__slot-items .bpa-mmc__slot-item{
+	margin-bottom: 28px;
+}
+.bpa-mmc__slot-items .bpa-mmc__slot-item:last-child{
+	margin-bottom: 32px;
+}
+.bpa-mmc__slot-item .bpa-mmc__slot-item-left{
+	flex: 1;
+}
+.bpa-mmc__slot-item .bpa-mmc__slot-item-right{
+	margin-left: 28px;
+}
+.bpa-mmc__slot-item .bpa-mmc__slot-item-right span.material-icons-round{
+	font-size: 20px;
+	margin-bottom: 8px;
+	color: var(--bpa-dt-black-200);
+	cursor: pointer;
+}
+.bpa-dialog__is-custom-duration-addon-activated{
+	max-width: 368px;
+}
+.bpa-dialog__is-custom-duration-addon-activated .bpa-grid-list-container{
+	max-height: 330px;
+	overflow-y: scroll;
+}
+.bpa-dialog__is-custom-duration-addon-activated .bpa-cda__form-control-row .el-col:first-child{
+	padding-right: 6px;
+}
+.bpa-dialog__is-custom-duration-addon-activated .bpa-cda__form-control-row .el-col:last-child{
+	padding-left: 6px;
+}
+/* Addon - Custom Duration & Pricing Ends */
+body.rtl .bpa-mmc__slot-item .bpa-mmc__slot-item-right{
+	margin-right: 28px;
+	margin-left: 0;
+}

@@ -1,0 +1,77 @@
+/*  Disable Cart Add Service Button */
+.__bpa-is-disabled-add-service{
+
+}
+:root {
+	
+	--bpa-pt-secondary-orange-alpha-08: rgba(245,174,65,0.06);
+}
+
+/* Waiting Time Slot State */
+.bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item .bpa-front__waiting-counter{
+	color: var(--bpa-pt-secondary-orange);
+	font-family: var(--bpa-primary-font);
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 15px;
+	margin-top: 2px;
+	width: 100%;
+}
+.bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front-bi__waiting:hover,
+.bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front-bi__waiting.__bpa-is-selected{
+	background-color: var(--bpa-pt-secondary-orange-alpha-08);
+	border-color: var(--bpa-pt-secondary-orange);	
+}
+/* Waiting List Addon Summary CSS */
+.bpa-front-module--booking-summary .bpa-front-summary-content__lg .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note,
+.bpa-front-module--booking-summary .bpa-front-summary-content__sm .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note{
+	background-color: var(--bpa-pt-secondary-orange-alpha-08);
+	border: 1px solid rgba(245,174,65,0.26);
+	border-radius: var(--bpa-radius-4px);
+	padding: 5px 8px;
+	display: flex;
+	align-items: center;
+}
+.bpa-front-module--booking-summary .bpa-front-summary-content__sm .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note{
+	justify-content: center;
+	margin: 12px 32px 0 32px;
+}
+.bpa-front-module--booking-summary .bpa-front-summary-content__lg .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note svg,
+.bpa-front-module--booking-summary .bpa-front-summary-content__sm .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note svg{
+	margin-right: 4px;
+	width: 14px;
+	height: 14px;	
+}
+.bpa-front-module--booking-summary .bpa-front-summary-content__lg .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note svg path,
+.bpa-front-module--booking-summary .bpa-front-summary-content__sm .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note svg path{
+	fill: var(--bpa-pt-secondary-orange);
+}
+.bpa-front-module--booking-summary .bpa-front-summary-content__lg .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note .bpa-front-wn--label,
+.bpa-front-module--booking-summary .bpa-front-summary-content__sm .bpa-front-module--bs-summary-content-item .bpa-front-bs__waiting-note .bpa-front-wn--label{
+	font-size: 13px;
+	line-height: 16px;
+	color: var(--bpa-dt-black-400);
+	font-family: var(--bpa-primary-font);
+	font-weight: normal;
+}
+.bpa-cp-ma-table.el-table .bpa-ma-status-box.__bpa-is-waiting{
+	border-color: rgba(244, 177, 37, 0.52);
+}
+.bpa-cp-ma-table.el-table .bpa-ma-status-box.__bpa-is-waiting .bpa-sb__circle{
+	background-color: var(--bpa-sc-warning);
+}
+.bpa-ma-vac--head__right .bpa-front-pill.__bpa-is-waiting{
+	color: var(--bpa-sc-warning);
+}
+.bpa-front--dt__calendar .vc-day .vc-day-content.bpa-front-bi-day__waiting .bpa-front-dt__day-slot-label{
+	color: var(--bpa-pt-secondary-orange);
+}	
+.bpa-front-tabs .bpa-front--dt__calendar .vc-day .vc-highlights + .vc-day-content.bpa-front-bi__waiting{
+	color: var(--bpa-cl-white);	
+}
+.bpa-front-dt__day-waiting-slot-disable{
+	color: var(--bpa-pt-secondary-orange);	
+}
+.bpa-front-bs__waiting-note .bpa-front-wn--label{
+	padding-right: 5px;
+}

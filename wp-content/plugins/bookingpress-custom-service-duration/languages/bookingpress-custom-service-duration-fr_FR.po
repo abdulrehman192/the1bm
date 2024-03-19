@@ -1,0 +1,456 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress - Custom Service Duration Addon v1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-01-29 07:31:28+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bookingpress-custom-service-duration.php:0
+#@ bookingpress-custom-service-duration
+msgid "BookingPress - Custom Service Duration Addon"
+msgstr "BookingPress - Module complémentaire de durée de service personnalisé"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: bookingpress-custom-service-duration.php:0
+#@ bookingpress-custom-service-duration
+msgid "https://www.bookingpressplugin.com/"
+msgstr "https://www.bookingpressplugin.com/"
+
+#. translators: plugin header field 'Author'
+#: bookingpress-custom-service-duration.php:0
+#@ bookingpress-custom-service-duration
+msgid "Repute InfoSystems"
+msgstr "Systèmes d'information de réputation"
+
+#: bookingpress-custom-service-duration.php:39
+#@ bookingpress-custom-service-duration
+msgid "BookingPress lite version 1.0.48"
+msgstr "BookingPress version allégée 1.0.48"
+
+#: bookingpress-custom-service-duration.php:42
+#@ bookingpress-custom-service-duration
+msgid "and"
+msgstr "et"
+
+#: bookingpress-custom-service-duration.php:45
+#@ bookingpress-custom-service-duration
+msgid "BookingPress Premium version 1.4"
+msgstr "BookingPress Premium version 1.4"
+
+#: bookingpress-custom-service-duration.php:47
+#@ bookingpress-custom-service-duration
+msgid "required to use BookingPress Custom Service Duration Add-on"
+msgstr "requis pour utiliser le module complémentaire de durée du service personnalisé de BookingPress"
+
+#: bookingpress-custom-service-duration.php:50
+#: bookingpress-custom-service-duration.php:126
+#: core/classes/class.bookingpress-custom-service-duration.php:592
+#: core/classes/class.bookingpress-custom-service-duration.php:605
+#: core/classes/class.bookingpress-custom-service-duration.php:636
+#: core/classes/class.bookingpress-custom-service-duration.php:647
+#, php-format
+#@ bookingpress-custom-service-duration
+msgid "Please %s Click Here %s to Continue"
+msgstr "Veuillez %s cliquer ici %s pour continuer"
+
+#: bookingpress-custom-service-duration.php:193
+#@ bookingpress-custom-service-duration
+msgid "Service Duration"
+msgstr "Durée des services"
+
+#: bookingpress-custom-service-duration.php:194
+#@ bookingpress-custom-service-duration
+msgid "Please select appropriate timeslot"
+msgstr "Veuillez sélectionner le créneau horaire approprié"
+
+#: bookingpress-custom-service-duration.php:195
+#@ bookingpress-custom-service-duration
+msgid "Please select"
+msgstr "Veuillez sélectionner"
+
+#: bookingpress-custom-service-duration.php:196
+#: core/classes/class.bookingpress-custom-service-duration.php:1112
+#: core/classes/class.bookingpress-custom-service-duration.php:1627
+#@ bookingpress-custom-service-duration
+msgid "Price"
+msgstr "Prix"
+
+#: bookingpress-custom-service-duration.php:197
+#@ bookingpress-custom-service-duration
+msgid "Custom Duration"
+msgstr "Durée personnalisée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:899
+#@ bookingpress-custom-service-duration
+msgid "BookingPress - Custom Service Duration plugin requires Bookingpress Premium Plugin installed and active."
+msgstr "BookingPress - Le plug-in de durée de service personnalisé nécessite que le plug-in Bookingpress Premium soit installé et actif."
+
+#: core/classes/class.bookingpress-custom-service-duration.php:905
+#@ bookingpress-custom-service-duration
+msgid "It's highly recommended to update the BookingPress cart plugin to version 1.4 or higher in order to use the BookingPress Custom Service Duration plugin"
+msgstr "Il est fortement recommandé de mettre à jour le plugin de panier BookingPress vers la version 1.4 ou supérieure afin d'utiliser le plugin BookingPress Custom Service Duration"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:912
+#@ bookingpress-custom-service-duration
+msgid "It's highly recommended to update the BookingPress invoice plugin to version 1.4 or higher in order to use the BookingPress Custom Service Duration plugin"
+msgstr "Il est fortement recommandé de mettre à jour le plugin de facturation BookingPress vers la version 1.4 ou supérieure afin d'utiliser le plugin BookingPress Custom Service Duration"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:961
+#@ bookingpress-custom-service-duration
+msgid "Custom Duration & Pricing"
+msgstr "Durée et prix personnalisés"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:968
+#@ bookingpress-custom-service-duration
+msgid "Need help?"
+msgstr "Besoin d'aide?"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:978
+#@ bookingpress-custom-service-duration
+msgid "Enable Custom Duration and Pricing"
+msgstr "Activer la durée et la tarification personnalisées"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:992
+#@ bookingpress-custom-service-duration
+msgid "Unit Duration:"
+msgstr "Durée de l'unité :"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1000
+#: core/classes/class.bookingpress-custom-service-duration.php:1488
+#: core/classes/class.bookingpress-custom-service-duration.php:1659
+#@ bookingpress-custom-service-duration
+msgid "Mins"
+msgstr "Minutes"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1001
+#: core/classes/class.bookingpress-custom-service-duration.php:1480
+#: core/classes/class.bookingpress-custom-service-duration.php:1652
+#@ bookingpress-custom-service-duration
+msgid "Hours"
+msgstr "Heures"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1011
+#@ bookingpress-custom-service-duration
+msgid "Unit Price:"
+msgstr "Prix ​​unitaire:"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1035
+#@ bookingpress-custom-service-duration
+msgid "Max Duration:"
+msgstr "Durée maximale :"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1027
+#: core/classes/class.bookingpress-custom-service-duration.php:1038
+#: core/classes/class.bookingpress-custom-service-duration.php:1054
+#: core/classes/class.bookingpress-custom-service-duration.php:1064
+#@ bookingpress-custom-service-duration
+msgid "Select duration"
+msgstr "Sélectionnez la durée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1051
+#: core/classes/class.bookingpress-custom-service-duration.php:1061
+#@ bookingpress-custom-service-duration
+msgid "Duration Upto:"
+msgstr "Durée jusqu'à :"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1072
+#@ bookingpress-custom-service-duration
+msgid "Price Per Unit:"
+msgstr "Prix ​​par unité:"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1104
+#: core/classes/class.bookingpress-custom-service-duration.php:1619
+#@ bookingpress-custom-service-duration
+msgid "Duration"
+msgstr "Durée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1154
+#: core/classes/class.bookingpress-custom-service-duration.php:1177
+#: core/classes/class.bookingpress-custom-service-duration.php:1240
+#@ bookingpress-custom-service-duration
+msgid "If you are change the service duration then custom duration will be reset."
+msgstr "Si vous modifiez la durée du service, la durée personnalisée sera réinitialisée."
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1156
+#: core/classes/class.bookingpress-custom-service-duration.php:1179
+#: core/classes/class.bookingpress-custom-service-duration.php:1242
+#@ bookingpress-custom-service-duration
+msgid "Ok"
+msgstr "D'accord"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1157
+#: core/classes/class.bookingpress-custom-service-duration.php:1180
+#: core/classes/class.bookingpress-custom-service-duration.php:1243
+#@ bookingpress-custom-service-duration
+msgid "Cancel"
+msgstr "Annuler"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:275
+#: core/classes/class.bookingpress-custom-service-duration.php:686
+#: core/classes/class.bookingpress-custom-service-duration.php:1211
+#: core/classes/class.bookingpress-custom-service-duration.php:1448
+#: core/classes/class.bookingpress-custom-service-duration.php:1566
+#: core/classes/class.bookingpress-custom-service-duration.php:1934
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-custom-service-duration
+msgid "Error"
+msgstr "Erreur"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1212
+#@ bookingpress-custom-service-duration
+msgid "Something went wrong.."
+msgstr "Quelque chose s'est mal passé.."
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1318
+#@ bookingpress-custom-service-duration
+msgid "Please enter price"
+msgstr "Veuillez entrer le prix"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1325
+#@ bookingpress-custom-service-duration
+msgid "Please select the max duration"
+msgstr "Veuillez sélectionner la durée maximale"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1445
+#@ bookingpress-custom-service-duration
+msgid "Sorry. Something went wrong while processing the request"
+msgstr "Pardon. Une erreur s'est produite lors du traitement de la demande"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1002
+#: core/classes/class.bookingpress-custom-service-duration.php:1502
+#: core/classes/class.bookingpress-custom-service-duration.php:1664
+#@ bookingpress-custom-service-duration
+msgid "Days"
+msgstr "Journées"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1526
+#@ bookingpress-custom-service-duration
+msgid "Please select unit duration"
+msgstr "Veuillez sélectionner la durée de l'unité"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1552
+#: core/classes/class.bookingpress-custom-service-duration.php:1935
+#@ bookingpress-custom-service-duration
+msgid "Same custom duration not allowed please set proper custom duration"
+msgstr "Même durée personnalisée non autorisée, veuillez définir une durée personnalisée appropriée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1555
+#@ bookingpress-custom-service-duration
+msgid "service custom duration not greater than max duration"
+msgstr "durée personnalisée du service non supérieure à la durée maximale"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1558
+#@ bookingpress-custom-service-duration
+msgid "Please input the cutom service duration price..."
+msgstr "Veuillez saisir le prix de la durée du service personnalisé..."
+
+#: core/classes/class.bookingpress-custom-service-duration.php:2896
+#: core/classes/class.bookingpress-custom-service-duration.php:3382
+#: core/classes/class.bookingpress-custom-service-duration.php:3465
+#@ bookingpress-custom-service-duration
+msgid "Please select duration"
+msgstr "Veuillez sélectionner la durée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:2909
+#: core/classes/class.bookingpress-custom-service-duration.php:2911
+#@ bookingpress-custom-service-duration
+msgid "Select Duration"
+msgstr "Sélectionnez la durée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:257
+#: core/classes/class.bookingpress-custom-service-duration.php:3474
+#@ bookingpress-custom-service-duration
+msgid "Custom Duration Labels"
+msgstr "Étiquettes de durée personnalisées"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:226
+#: core/classes/class.bookingpress-custom-service-duration.php:242
+#: core/classes/class.bookingpress-custom-service-duration.php:3476
+#@ bookingpress-custom-service-duration
+msgid "Service duration title"
+msgstr "Titre de la durée du service"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:227
+#: core/classes/class.bookingpress-custom-service-duration.php:243
+#: core/classes/class.bookingpress-custom-service-duration.php:3480
+#@ bookingpress-custom-service-duration
+msgid "Service duration description"
+msgstr "Description de la durée du service"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:228
+#: core/classes/class.bookingpress-custom-service-duration.php:244
+#: core/classes/class.bookingpress-custom-service-duration.php:3484
+#@ bookingpress-custom-service-duration
+msgid "Please select placeholder"
+msgstr "Veuillez sélectionner un espace réservé"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:229
+#: core/classes/class.bookingpress-custom-service-duration.php:245
+#: core/classes/class.bookingpress-custom-service-duration.php:3488
+#@ bookingpress-custom-service-duration
+msgid "Custom duration title"
+msgstr "Titre de durée personnalisé"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:230
+#: core/classes/class.bookingpress-custom-service-duration.php:246
+#: core/classes/class.bookingpress-custom-service-duration.php:3492
+#@ bookingpress-custom-service-duration
+msgid "Price title"
+msgstr "Titre du prix"
+
+#. translators: plugin header field 'Description'
+#: bookingpress-custom-service-duration.php:0
+#@ bookingpress-custom-service-duration
+msgid "Extension for BookingPress plugin allow customers to choose custom service duration"
+msgstr "L'extension pour le plugin BookingPress permet aux clients de choisir la durée du service personnalisé"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1024
+#@ bookingpress-custom-service-duration
+msgid "Min Duration:"
+msgstr "Durée minimale :"
+
+#: bookingpress-custom-service-duration.php:80
+#: bookingpress-custom-service-duration.php:112
+#@ bookingpress-custom-service-duration
+msgid "An error occurred, please try again."
+msgstr "Une erreur s'est produite, veuillez réessayer."
+
+#: bookingpress-custom-service-duration.php:88
+#, php-format
+#@ bookingpress-custom-service-duration
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le %s."
+
+#: bookingpress-custom-service-duration.php:93
+#@ bookingpress-custom-service-duration
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#: bookingpress-custom-service-duration.php:96
+#@ bookingpress-custom-service-duration
+msgid "Invalid license."
+msgstr "Licence invalide."
+
+#: bookingpress-custom-service-duration.php:100
+#@ bookingpress-custom-service-duration
+msgid "Your license is not active for this URL."
+msgstr "Votre licence n'est pas active pour cette URL."
+
+#: bookingpress-custom-service-duration.php:103
+#: bookingpress-custom-service-duration.php:106
+#@ bookingpress-custom-service-duration
+msgid "This appears to be an invalid license key for your selected package."
+msgstr "Cela semble être une clé de licence non valide pour votre package sélectionné."
+
+#: bookingpress-custom-service-duration.php:109
+#@ bookingpress-custom-service-duration
+msgid "Your license key has reached its activation limit."
+msgstr "Votre clé de licence a atteint sa limite d'activation."
+
+#: bookingpress-custom-service-duration.php:125
+#: core/classes/class.bookingpress-custom-service-duration.php:591
+#: core/classes/class.bookingpress-custom-service-duration.php:604
+#: core/classes/class.bookingpress-custom-service-duration.php:635
+#: core/classes/class.bookingpress-custom-service-duration.php:646
+#@ bookingpress-custom-service-duration
+msgid "Please activate license of BookingPress premium plugin to use BookingPress Custom Service Duration Add-on"
+msgstr "Veuillez activer la licence du plug-in premium BookingPress pour utiliser le module complémentaire de durée du service personnalisé BookingPress"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:919
+#@ bookingpress-custom-service-duration
+msgid "It's Required to update the BookingPress Premium Plugin to version 2.1 or higher in order to use the BookingPress Custom Service Duration plugin"
+msgstr "Il est nécessaire de mettre à jour le plugin BookingPress Premium vers la version 2.1 ou supérieure afin d'utiliser le plugin BookingPress Custom Service Duration"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1477
+#: core/classes/class.bookingpress-custom-service-duration.php:1649
+#@ bookingpress-custom-service-duration
+msgid "Hour"
+msgstr "Heure"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:1485
+#: core/classes/class.bookingpress-custom-service-duration.php:1657
+#@ bookingpress-custom-service-duration
+msgid "Min"
+msgstr "Min"
+
+#. translators: the plugin name.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:257
+#, php-format
+#@ bookingpress-custom-service-duration
+msgid "There is a new version of %1$s available."
+msgstr "Une nouvelle version de %1$s est disponible."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:263
+#@ bookingpress-custom-service-duration
+msgid "Contact your network administrator to install the update."
+msgstr "Contactez votre administrateur réseau pour installer la mise à jour."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:268
+#, php-format
+#@ bookingpress-custom-service-duration
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sAfficher les détails de la version %2$s%3$s."
+
+#. translators: 1. link for changelog 2. version name 3. opening anchor tag for update link 4. closing tag for update link
+#: core/classes/class.bookingpress_pro_plugin_updater.php:277
+#, php-format
+#@ bookingpress-custom-service-duration
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sAfficher les détails de la version %2$s%3$s ou %4$mettre à jour maintenant%5$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:288
+#@ bookingpress-custom-service-duration
+msgid "Update now."
+msgstr "Mettez à jour maintenant."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-custom-service-duration
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n'êtes pas autorisé à installer les mises à jour du plugin"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:276
+#@ bookingpress-custom-service-duration
+msgid "To enable custom duration in Days, you need to update BookingPress pro plugin to version 2.2 or higher."
+msgstr "Pour activer la durée personnalisée en jours, vous devez mettre à jour le plugin BookingPress pro vers la version 2.2 ou supérieure."
+
+#: bookingpress-custom-service-duration.php:198
+#@ bookingpress-custom-service-duration
+msgid "Please select custom service duration value"
+msgstr "Veuillez sélectionner une valeur de durée de service personnalisée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:231
+#: core/classes/class.bookingpress-custom-service-duration.php:247
+#: core/classes/class.bookingpress-custom-service-duration.php:3496
+#@ bookingpress-custom-service-duration
+msgid "No custom service duration selected"
+msgstr "Aucune durée de service personnalisée sélectionnée"
+
+#: core/classes/class.bookingpress-custom-service-duration.php:687
+#@ bookingpress-custom-service-duration
+msgid "Sorry, Your request can not be processed due to security reason."
+msgstr "Désolé, votre demande ne peut pas être traitée pour des raisons de sécurité."
+
+#. translators: plugin header field 'Version'
+#: bookingpress-custom-service-duration.php:0
+#@ bookingpress-custom-service-duration
+msgid "1.8"
+msgstr "1.8"
+

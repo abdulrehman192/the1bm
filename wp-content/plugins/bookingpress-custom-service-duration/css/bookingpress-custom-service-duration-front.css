@@ -1,0 +1,171 @@
+/* Custom Service Duration Addon */
+.bpa-front--dt__custom-duration-is-full{
+	padding: 20px 16px;
+    border: 1px solid var(--bpa-gt-gray-400);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    /* background-color: var(--bpa-cl-white); */
+    height: 430px;
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	animation: .4s cubic-bezier(.45, 1, .4, 1.2) 0.1ms slideUp;
+}
+.bpa-custom-duration-dropdown{
+	background-color: var(--bpa-cl-white);
+}
+.bpa-custom-duration-dropdown .popper__arrow{
+	border-top-color: var(--bpa-gt-gray-400);
+    bottom: -8px;
+}
+.bpa-custom-duration-dropdown .popper__arrow::after{
+	border-top-color: var(--bpa-gt-gray-400);
+}
+.bpa-front-cdf__icon svg{
+	margin-bottom: 12px;
+}
+.bpa-front-cdf__icon svg .bpa-front-cdf__icon-vector-primary-color{
+	fill: var(--bpa-pt-main-green);
+}
+.bpa-front-cdf__icon svg .bpa-front-cdf__icon-bg{
+	fill: var(--bpa-pt-main-green-alpha-12);
+}
+.bpa-front--dt__custom-duration-is-full .bpa-front--dt-ts__sub-heading{
+	font-size: 16px;
+	line-height: 24px;
+	font-family: var(--bpa-primary-font);
+	font-weight: 500;
+	color: var(--bpa-dt-black-400);
+	margin-bottom: 6px;
+}
+.bpa-front--dt__custom-duration-is-full .bpa-front-cdf__desc{
+	font-size: 13px;
+	color: var(--bpa-dt-black-300);
+	line-height: 18px;
+}
+.bpa-front--dt__custom-duration-is-full .bpa-front-module--bd-form{
+	margin-top: 16px;
+}
+.bpa-front--dt__custom-duration-is-full .bpa-front-module--bd-form .el-row .el-col{
+	margin: 0;
+}
+.bpa-front--dt__custom-duration-is-full .bpa-front-module--bd-form .bpa-bdf--single-col-item{
+	padding: 0;
+}
+.bpa-front--dt__custom-duration-card{
+	border: 1px solid var(--bpa-gt-gray-400);
+	background-color: transparent;
+	border-radius: var(--bpa-radius-4px);
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 16px;
+	align-items: center;
+	animation: .4s cubic-bezier(.45, 1, .4, 1.2) 0.1ms slideUp;
+}
+.bpa-front--dt__custom-duration-card .bpa-front-cdc__left{
+	display: flex;
+	align-items: center;
+	flex: 1;
+	padding: 8px 16px;
+	background-color: var(--bpa-gt-gray-100);
+	border-radius: var(--bpa-radius-4px) 0 0 var(--bpa-radius-4px);
+}
+.bpa-front-cdc__left .bpa-front-form-control > .el-input{
+	line-height: normal;
+}
+.bpa-front-cdc__left span.material-icons-round{
+	margin-right: 6px;
+	font-size: 20px;
+	color: var(--bpa-dt-black-200);
+}
+.bpa-front-cdc__left svg{
+	margin-right: 6px;
+	width: 20px;
+	fill: var(--bpa-dt-black-200);
+}
+.bpa-front-cdc__left .bpa-front-form-control .el-input__inner{
+	padding: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+	background-color: transparent !important;
+	text-overflow: ellipsis;
+	width: 80px !important;
+}
+.bpa-front-cdc__left .bpa-front-form-control .el-input__icon{
+	line-height: unset;
+}
+.bpa-front--dt__custom-duration-card .bpa-front-cdc__right{
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+}
+.bpa-front-cdc__right .bpa-front-cdc__right-title{
+	font-size: 14px;
+	font-weight: normal;
+	color: var(--bpa-dt-black-200);
+	line-height: 18px;
+	font-family: var(--bpa-primary-font);
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+}
+.bpa-front-cdc__right-title .bpa-front-cdc__price-val{
+	color: var(--bpa-dt-black-400);
+	min-width: 50px;
+	padding-left: 2px;
+	font-weight: 500;
+}
+.bpa-front--dt__time-slots.bpa-front--dt__custom-duration-is-active{
+	height: 370px;
+}
+.bpa-custom-duration-dropdown{
+	z-index: 9992 !important;
+}
+.bpa-dt__custom-duration-is-day-service.bpa-cd-day-service__loader-active{
+    min-height: 430px;
+}
+.bpa-cd__is-day-service-loader{
+	height: 430px;
+}
+.bpa-cd__is-day-service-loader .bpa-front-loader{
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.bpa-front-v-cal__is-only-days .bpa-front--dt__custom-duration-card .bpa-front-cdc__left{
+	cursor: pointer;
+}
+@media (max-width: 1024px){
+	.bpa-front--dt__custom-duration-is-full{
+		height: 410px;
+	}
+	.bpa-front--dt__time-slots.bpa-front--dt__custom-duration-is-active{
+		height: 358px;
+	}
+}
+@media (max-width: 576px) {
+/* Custom Duration*/
+	.bpa-front--dt__custom-duration-is-full{
+		padding: 0;
+		border: none;
+		height: auto;
+		min-height: 400px;
+	}
+	.bpa-front--dt__custom-duration-card{
+		margin: 0 20px 16px 20px;
+	}
+	.bpa-front-module--booking-summary .bpa-front-module--bs-amount-details .bpa-fm--bs-amount-item{
+		padding: 0 20px;
+	}
+	.bpa-front-dt__cd-time-picker{
+		margin-top: 62px !important;
+	}
+}

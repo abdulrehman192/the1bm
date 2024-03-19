@@ -1,0 +1,640 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress - Waiting List Addon v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-01-24 12:58:18+0000\n"
+"Last-Translator: testing <repute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bookingpress-waiting-list.php:0
+#@ bookingpress-waiting-list
+msgid "BookingPress - Waiting List Addon"
+msgstr "BookingPress - Waiting List Addon"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: bookingpress-waiting-list.php:0
+#@ bookingpress-waiting-list
+msgid "https://www.bookingpressplugin.com/"
+msgstr "https://www.bookingpressplugin.com/"
+
+#. translators: plugin header field 'Description'
+#: bookingpress-waiting-list.php:0
+#@ bookingpress-waiting-list
+msgid "Extension for BookingPress plugin Add your customers to a waiting list on fully booked slot/days."
+msgstr "Расширение для плагина BookingPress Добавляйте клиентов в список ожидания в полностью забронированные слоты/дни."
+
+#. translators: plugin header field 'Author'
+#: bookingpress-waiting-list.php:0
+#@ bookingpress-waiting-list
+msgid "Repute InfoSystems"
+msgstr "Repute InfoSystems"
+
+#: core/classes/class.bookingpress-waiting-list.php:201
+#: core/classes/class.bookingpress-waiting-list.php:1459
+#: core/classes/class.bookingpress-waiting-list.php:1465
+#: core/classes/class.bookingpress-waiting-list.php:1609
+#: core/classes/class.bookingpress-waiting-list.php:1779
+#: core/classes/class.bookingpress-waiting-list.php:1785
+#: core/classes/class.bookingpress-waiting-list.php:1944
+#: core/classes/class.bookingpress-waiting-list.php:2161
+#: core/classes/class.bookingpress-waiting-list.php:2405
+#: core/classes/class.bookingpress-waiting-list.php:2426
+#: core/classes/class.bookingpress-waiting-list.php:2448
+#: core/classes/class.bookingpress-waiting-list.php:2477
+#: core/classes/class.bookingpress-waiting-list.php:2521
+#: core/classes/class.bookingpress-waiting-list.php:4098
+#: core/classes/class.bookingpress-waiting-list.php:4110
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-waiting-list
+msgid "Error"
+msgstr "Ошибка"
+
+#: core/classes/class.bookingpress-waiting-list.php:202
+#: core/classes/class.bookingpress-waiting-list.php:1460
+#: core/classes/class.bookingpress-waiting-list.php:1780
+#: core/classes/class.bookingpress-waiting-list.php:1786
+#@ bookingpress-waiting-list
+msgid "Sorry, Your request can not be processed due to security reason."
+msgstr "К сожалению, ваш запрос не может быть обработан по соображениям безопасности."
+
+#: core/classes/class.bookingpress-waiting-list.php:1466
+#@ bookingpress-waiting-list
+msgid "Something went wrong while completing the payment"
+msgstr "Что-то пошло не так при завершении платежа"
+
+#: core/classes/class.bookingpress-waiting-list.php:1603
+#: core/classes/class.bookingpress-waiting-list.php:1621
+#: core/classes/class.bookingpress-waiting-list.php:1639
+#: core/classes/class.bookingpress-waiting-list.php:1795
+#: core/classes/class.bookingpress-waiting-list.php:2415
+#: core/classes/class.bookingpress-waiting-list.php:4672
+#@ bookingpress-waiting-list
+msgid "Success"
+msgstr "Успех"
+
+#: core/classes/class.bookingpress-waiting-list.php:1725
+#@ bookingpress-waiting-list
+msgid "Waiting List Color"
+msgstr "Цвет списка ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:1796
+#@ bookingpress-waiting-list
+msgid "The Appointment successfully booked from waiting list."
+msgstr "Назначение успешно забронировано из списка ожидания."
+
+#: core/classes/class.bookingpress-waiting-list.php:1945
+#@ bookingpress-waiting-list
+msgid "The Appointment is not available for book."
+msgstr "Назначение недоступно для книги."
+
+#: core/classes/class.bookingpress-waiting-list.php:2283
+#@ bookingpress-waiting-list
+msgid "Min"
+msgstr "Мин."
+
+#: core/classes/class.bookingpress-waiting-list.php:2286
+#@ bookingpress-waiting-list
+msgid "Mins"
+msgstr "Мин."
+
+#: core/classes/class.bookingpress-waiting-list.php:2290
+#@ bookingpress-waiting-list
+msgid "Day"
+msgstr "День"
+
+#: core/classes/class.bookingpress-waiting-list.php:2292
+#@ bookingpress-waiting-list
+msgid "Days"
+msgstr "Дней"
+
+#: core/classes/class.bookingpress-waiting-list.php:2295
+#@ bookingpress-waiting-list
+msgid "Hours"
+msgstr "Часы"
+
+#: core/classes/class.bookingpress-waiting-list.php:2318
+#@ bookingpress-waiting-list
+msgid "To"
+msgstr "К"
+
+#: core/classes/class.bookingpress-waiting-list.php:2427
+#: core/classes/class.bookingpress-waiting-list.php:2478
+#: core/classes/class.bookingpress-waiting-list.php:2522
+#@ bookingpress-waiting-list
+msgid "Something went wrong.."
+msgstr "Что-то пошло не так.."
+
+#: core/classes/class.bookingpress-waiting-list.php:2542
+#: core/classes/class.bookingpress-waiting-list.php:4894
+#@ bookingpress-waiting-list
+msgid "Waiting List"
+msgstr "Список ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:2839
+#@ bookingpress-waiting-list
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: core/classes/class.bookingpress-waiting-list.php:3913
+#@ bookingpress-waiting-list
+msgid "Waiting Slot"
+msgstr "Слот ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:3914
+#: core/classes/class.bookingpress-waiting-list.php:4895
+#@ bookingpress-waiting-list
+msgid "Add To Waiting"
+msgstr "Добавить в ожидание"
+
+#: core/classes/class.bookingpress-waiting-list.php:3915
+#: core/classes/class.bookingpress-waiting-list.php:4896
+#@ bookingpress-waiting-list
+msgid "Final Amount"
+msgstr "Окончательная сумма"
+
+#: core/classes/class.bookingpress-waiting-list.php:3916
+#: core/classes/class.bookingpress-waiting-list.php:4897
+#@ bookingpress-waiting-list
+msgid "Your waiting position is"
+msgstr "Ваша позиция ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:3917
+#@ bookingpress-waiting-list
+msgid "Your appointment successfully booked."
+msgstr "Ваша встреча успешно забронирована."
+
+#: core/classes/class.bookingpress-waiting-list.php:507
+#: core/classes/class.bookingpress-waiting-list.php:3958
+#@ bookingpress-waiting-list
+msgid "Waiting List labels"
+msgstr "Ярлыки списка ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:479
+#: core/classes/class.bookingpress-waiting-list.php:493
+#: core/classes/class.bookingpress-waiting-list.php:3960
+#@ bookingpress-waiting-list
+msgid "Waiting Slot Label"
+msgstr "Метка слота ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:480
+#: core/classes/class.bookingpress-waiting-list.php:494
+#: core/classes/class.bookingpress-waiting-list.php:3964
+#@ bookingpress-waiting-list
+msgid "Waiting List Button Label"
+msgstr "Метка кнопки списка ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:481
+#: core/classes/class.bookingpress-waiting-list.php:495
+#: core/classes/class.bookingpress-waiting-list.php:3968
+#@ bookingpress-waiting-list
+msgid "Waiting List Payable Amount Label"
+msgstr "Этикетка с суммой к оплате в листе ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:482
+#: core/classes/class.bookingpress-waiting-list.php:496
+#: core/classes/class.bookingpress-waiting-list.php:3972
+#@ bookingpress-waiting-list
+msgid "Waiting Position label"
+msgstr "Метка положения ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:483
+#: core/classes/class.bookingpress-waiting-list.php:497
+#: core/classes/class.bookingpress-waiting-list.php:3976
+#@ bookingpress-waiting-list
+msgid "Waiting Payment Success Message"
+msgstr "Ожидание сообщения об успешном платеже"
+
+#: core/classes/class.bookingpress-waiting-list.php:4099
+#: core/classes/class.bookingpress-waiting-list.php:4111
+#@ bookingpress-waiting-list
+msgid "Sorry, Your request can not be processed because of appoinment not avaliable for same timeslot."
+msgstr "К сожалению, ваш запрос не может быть обработан из-за того, что запись недоступна для того же временного интервала."
+
+#: core/classes/class.bookingpress-waiting-list.php:4225
+#@ bookingpress-waiting-list
+msgid "Waiting List Max Time Slot Limit"
+msgstr "Ограничение максимального временного интервала в списке ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:4228
+#@ bookingpress-waiting-list
+msgid "Add 0 to remove waiting list."
+msgstr "Добавьте 0, чтобы удалить список ожидания."
+
+#: core/classes/class.bookingpress-waiting-list.php:4673
+#@ bookingpress-waiting-list
+msgid "Thank you! Your waiting list appointment is complete. An email with details of your booking has been sent to you."
+msgstr "Спасибо! Ваша запись в лист ожидания завершена. Вам отправлено электронное письмо с подробной информацией о вашем бронировании."
+
+#: core/classes/class.bookingpress-waiting-list.php:4869
+#@ bookingpress-waiting-list
+msgid "Waiting List Payment"
+msgstr "Оплата листа ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:5064
+#@ bookingpress-waiting-list
+msgid "BookingPress - Waiting List Plugin requires Bookingpress Premium Plugin installed and active."
+msgstr "Для плагина BookingPress — списка ожидания требуется установленный и активный плагин Bookingpress Premium."
+
+#: core/classes/class.bookingpress-waiting-list.php:2316
+#: core/classes/class.bookingpress-waiting-list.php:5072
+#@ bookingpress-waiting-list
+msgid "On waiting list"
+msgstr "В списке ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:5092
+#@ bookingpress-waiting-list
+msgid "Appointment Wiaiting List Notification"
+msgstr "Уведомление о записи на прием"
+
+#: core/classes/class.bookingpress-waiting-list.php:5095
+#@ bookingpress-waiting-list
+msgid "On Waiting List"
+msgstr "В списке ожидания"
+
+#: core/classes/class.bookingpress-waiting-list.php:5097
+#@ bookingpress-waiting-list
+msgid "Waiting Slot Availability Notification"
+msgstr "Ожидание уведомления о доступности слота"
+
+#: core/classes/class.bookingpress-waiting-list.php:5100
+#@ bookingpress-waiting-list
+msgid "Waiting Slot Availability"
+msgstr "Доступность слота ожидания"
+
+#: core/views/bookingpress_admin_appointment_tabs.php:18
+#@ bookingpress-waiting-list
+msgid "Active Appointments"
+msgstr "Активные встречи"
+
+#: core/views/bookingpress_admin_appointment_tabs.php:27
+#@ bookingpress-waiting-list
+msgid "Waiting Appointments"
+msgstr "Ожидание назначений"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:16
+#: core/views/bookingpress_manage_waiting_appointment.php:284
+#: core/views/bookingpress_manage_waiting_appointment.php:562
+#@ bookingpress-waiting-list
+msgid "Booking ID"
+msgstr "Идентификатор бронирования"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:26
+#: core/views/bookingpress_manage_waiting_appointment.php:30
+#: core/views/bookingpress_manage_waiting_appointment.php:39
+#: core/views/bookingpress_manage_waiting_appointment.php:256
+#: core/views/bookingpress_manage_waiting_appointment.php:294
+#: core/views/bookingpress_manage_waiting_appointment.php:298
+#: core/views/bookingpress_manage_waiting_appointment.php:307
+#: core/views/bookingpress_manage_waiting_appointment.php:534
+#: core/views/bookingpress_manage_waiting_appointment.php:572
+#: core/views/bookingpress_manage_waiting_appointment.php:576
+#: core/views/bookingpress_manage_waiting_appointment.php:585
+#: core/views/bookingpress_manage_waiting_appointment.php:781
+#@ bookingpress-waiting-list
+msgid "Cancel"
+msgstr "Отмена"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:29
+#: core/views/bookingpress_manage_waiting_appointment.php:297
+#: core/views/bookingpress_manage_waiting_appointment.php:575
+#@ bookingpress-waiting-list
+msgid "Close"
+msgstr "Закрывать"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:32
+#: core/views/bookingpress_manage_waiting_appointment.php:300
+#: core/views/bookingpress_manage_waiting_appointment.php:578
+#@ bookingpress-waiting-list
+msgid "Are you sure you want to cancel this appointment?"
+msgstr "Вы уверены, что хотите отменить эту встречу?"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:52
+#: core/views/bookingpress_manage_waiting_appointment.php:322
+#: core/views/bookingpress_manage_waiting_appointment.php:600
+#@ bookingpress-waiting-list
+msgid "Basic Details"
+msgstr "Основные детали"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:55
+#: core/views/bookingpress_manage_waiting_appointment.php:214
+#: core/views/bookingpress_manage_waiting_appointment.php:325
+#: core/views/bookingpress_manage_waiting_appointment.php:491
+#: core/views/bookingpress_manage_waiting_appointment.php:603
+#@ bookingpress-waiting-list
+msgid "Date"
+msgstr "Дата"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:63
+#: core/views/bookingpress_manage_waiting_appointment.php:333
+#: core/views/bookingpress_manage_waiting_appointment.php:611
+#@ bookingpress-waiting-list
+msgid "Time"
+msgstr "Время"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:88
+#: core/views/bookingpress_manage_waiting_appointment.php:358
+#: core/views/bookingpress_manage_waiting_appointment.php:636
+#@ bookingpress-waiting-list
+msgid "No. Of Person"
+msgstr "№ человека"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:99
+#: core/views/bookingpress_manage_waiting_appointment.php:369
+#: core/views/bookingpress_manage_waiting_appointment.php:647
+#@ bookingpress-waiting-list
+msgid "Customer Details"
+msgstr "Сведения о клиенте"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:145
+#: core/views/bookingpress_manage_waiting_appointment.php:415
+#: core/views/bookingpress_manage_waiting_appointment.php:693
+#@ bookingpress-waiting-list
+msgid "Extras"
+msgstr "Дополнительно"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:150
+#: core/views/bookingpress_manage_waiting_appointment.php:420
+#: core/views/bookingpress_manage_waiting_appointment.php:698
+#@ bookingpress-waiting-list
+msgid "Qty:"
+msgstr "Кол-во:"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:156
+#: core/views/bookingpress_manage_waiting_appointment.php:426
+#: core/views/bookingpress_manage_waiting_appointment.php:704
+#@ bookingpress-waiting-list
+msgid "Custom Fields"
+msgstr "Настраиваемые поля"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:176
+#: core/views/bookingpress_manage_waiting_appointment.php:446
+#: core/views/bookingpress_manage_waiting_appointment.php:724
+#@ bookingpress-waiting-list
+msgid "Payment Details"
+msgstr "Детали оплаты"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:179
+#: core/views/bookingpress_manage_waiting_appointment.php:449
+#: core/views/bookingpress_manage_waiting_appointment.php:727
+#@ bookingpress-waiting-list
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:183
+#: core/views/bookingpress_manage_waiting_appointment.php:228
+#: core/views/bookingpress_manage_waiting_appointment.php:453
+#: core/views/bookingpress_manage_waiting_appointment.php:506
+#: core/views/bookingpress_manage_waiting_appointment.php:731
+#@ bookingpress-waiting-list
+msgid "Status"
+msgstr "Положение дел"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:188
+#: core/views/bookingpress_manage_waiting_appointment.php:461
+#: core/views/bookingpress_manage_waiting_appointment.php:739
+#: core/views/frontend/bookingpress_waiting_payment_form.php:172
+#@ bookingpress-waiting-list
+msgid "Tax"
+msgstr "налог"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:194
+#: core/views/bookingpress_manage_waiting_appointment.php:471
+#: core/views/bookingpress_manage_waiting_appointment.php:749
+#@ bookingpress-waiting-list
+msgid "Total Amount"
+msgstr "Общая сумма"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:208
+#: core/views/bookingpress_manage_waiting_appointment.php:485
+#@ bookingpress-waiting-list
+msgid "ID"
+msgstr "ИДЕНТИФИКАТОР"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:217
+#: core/views/bookingpress_manage_waiting_appointment.php:495
+#@ bookingpress-waiting-list
+msgid "Rescheduled"
+msgstr "Перенесено"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:222
+#@ bookingpress-waiting-list
+msgid "Customer"
+msgstr "Клиент"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:226
+#: core/views/bookingpress_manage_waiting_appointment.php:505
+#@ bookingpress-waiting-list
+msgid "Service"
+msgstr "Услуга"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:227
+#@ bookingpress-waiting-list
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:239
+#: core/views/bookingpress_manage_waiting_appointment.php:517
+#: core/views/bookingpress_manage_waiting_appointment.php:775
+#@ bookingpress-waiting-list
+msgid "Available"
+msgstr "Доступный"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:245
+#: core/views/bookingpress_manage_waiting_appointment.php:523
+#@ bookingpress-waiting-list
+msgid "Approve"
+msgstr "Утвердить"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:253
+#: core/views/bookingpress_manage_waiting_appointment.php:257
+#: core/views/bookingpress_manage_waiting_appointment.php:531
+#: core/views/bookingpress_manage_waiting_appointment.php:535
+#: core/views/bookingpress_manage_waiting_appointment.php:782
+#@ bookingpress-waiting-list
+msgid "Delete"
+msgstr "Удалить"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:259
+#: core/views/bookingpress_manage_waiting_appointment.php:537
+#: core/views/bookingpress_manage_waiting_appointment.php:784
+#@ bookingpress-waiting-list
+msgid "Are you sure you want to delete this appointment?"
+msgstr "Вы уверены, что хотите удалить эту встречу?"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:457
+#: core/views/bookingpress_manage_waiting_appointment.php:735
+#@ bookingpress-waiting-list
+msgid "Deposit"
+msgstr "Депозит"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:465
+#: core/views/bookingpress_manage_waiting_appointment.php:743
+#@ bookingpress-waiting-list
+msgid "Coupon"
+msgstr "Купон"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:813
+#@ bookingpress-waiting-list
+msgid "No Record Found!"
+msgstr "Запись не найдена!"
+
+#: core/views/frontend/bookingpress_waiting_payment_form.php:199
+#@ bookingpress-waiting-list
+msgid "Applied"
+msgstr "Применяемый"
+
+#: core/classes/class.bookingpress-waiting-list.php:2158
+#@ bookingpress-waiting-list
+msgid "Sorry. Something went wrong while processing the request"
+msgstr "Извини. Что-то пошло не так при обработке запроса"
+
+#: core/classes/class.bookingpress-waiting-list.php:4899
+#@ bookingpress-waiting-list
+msgid "Payment completed."
+msgstr "Оплата завершена."
+
+#: core/classes/class.bookingpress-waiting-list.php:580
+#: core/classes/class.bookingpress-waiting-list.php:593
+#: core/classes/class.bookingpress-waiting-list.php:624
+#: core/classes/class.bookingpress-waiting-list.php:635
+#: core/classes/class.bookingpress-waiting-list.php:4846
+#@ bookingpress-waiting-list
+msgid "Please activate license of BookingPress premium plugin to use BookingPress Waiting List Add-on"
+msgstr "Активируйте лицензию премиум-плагина BookingPress, чтобы использовать надстройку «Список ожидания BookingPress»."
+
+#: core/classes/class.bookingpress-waiting-list.php:581
+#: core/classes/class.bookingpress-waiting-list.php:594
+#: core/classes/class.bookingpress-waiting-list.php:625
+#: core/classes/class.bookingpress-waiting-list.php:636
+#: core/classes/class.bookingpress-waiting-list.php:4847
+#, php-format
+#@ bookingpress-waiting-list
+msgid "Please %s Click Here %s to Continue"
+msgstr "Пожалуйста, %s Нажмите здесь %s, чтобы продолжить"
+
+#: core/classes/class.bookingpress-waiting-list.php:4801
+#: core/classes/class.bookingpress-waiting-list.php:4833
+#@ bookingpress-waiting-list
+msgid "An error occurred, please try again."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте еще раз."
+
+#: core/classes/class.bookingpress-waiting-list.php:4809
+#, php-format
+#@ bookingpress-waiting-list
+msgid "Your license key expired on %s."
+msgstr "Срок действия вашего лицензионного ключа истек %s."
+
+#: core/classes/class.bookingpress-waiting-list.php:4814
+#@ bookingpress-waiting-list
+msgid "Your license key has been disabled."
+msgstr "Ваш лицензионный ключ отключен."
+
+#: core/classes/class.bookingpress-waiting-list.php:4817
+#@ bookingpress-waiting-list
+msgid "Invalid license."
+msgstr "Недействительная лицензия."
+
+#: core/classes/class.bookingpress-waiting-list.php:4821
+#@ bookingpress-waiting-list
+msgid "Your license is not active for this URL."
+msgstr "Ваша лицензия не активна для этого URL."
+
+#: core/classes/class.bookingpress-waiting-list.php:4824
+#: core/classes/class.bookingpress-waiting-list.php:4827
+#@ bookingpress-waiting-list
+msgid "This appears to be an invalid license key for your selected package."
+msgstr "Похоже, это неверный лицензионный ключ для выбранного вами пакета."
+
+#: core/classes/class.bookingpress-waiting-list.php:4830
+#@ bookingpress-waiting-list
+msgid "Your license key has reached its activation limit."
+msgstr "Ваш лицензионный ключ достиг предела активации."
+
+#. translators: the plugin name.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:257
+#, php-format
+#@ bookingpress-waiting-list
+msgid "There is a new version of %1$s available."
+msgstr "Доступна новая версия %1$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:263
+#@ bookingpress-waiting-list
+msgid "Contact your network administrator to install the update."
+msgstr "Обратитесь к сетевому администратору, чтобы установить обновление."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:268
+#, php-format
+#@ bookingpress-waiting-list
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sПодробнее о версии %2$s%3$s."
+
+#. translators: 1. link for changelog 2. version name 3. opening anchor tag for update link 4. closing tag for update link
+#: core/classes/class.bookingpress_pro_plugin_updater.php:277
+#, php-format
+#@ bookingpress-waiting-list
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sПросмотреть версию %2$s подробности%3$s или %4$обновить сейчас%5$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:288
+#@ bookingpress-waiting-list
+msgid "Update now."
+msgstr "Обновить сейчас."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-waiting-list
+msgid "You do not have permission to install plugin updates"
+msgstr "У вас нет разрешения на установку обновлений плагинов."
+
+#: core/classes/class.bookingpress-waiting-list.php:2449
+#@ bookingpress-waiting-list
+msgid "Please select any action..."
+msgstr "Выберите любое действие..."
+
+#: core/views/bookingpress_manage_waiting_appointment.php:827
+#@ bookingpress-waiting-list
+msgid " Items Selected"
+msgstr "Выбранные элементы"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:831
+#@ bookingpress-waiting-list
+msgid "Select"
+msgstr "Выбирать"
+
+#: core/views/bookingpress_manage_waiting_appointment.php:838
+#@ bookingpress-waiting-list
+msgid "Go"
+msgstr "Идти"
+
+#: core/classes/class.bookingpress-waiting-list.php:2406
+#@ bookingpress-waiting-list
+msgid "Appointment already booked for this slot"
+msgstr "Встреча уже забронирована для этого места"
+
+#: core/classes/class.bookingpress-waiting-list.php:2416
+#@ bookingpress-waiting-list
+msgid "Appointment status changed successfully"
+msgstr "Статус встречи успешно изменен"
+
+#. translators: plugin header field 'Version'
+#: bookingpress-waiting-list.php:0
+#@ bookingpress-waiting-list
+msgid "1.5"
+msgstr "1.5"
+

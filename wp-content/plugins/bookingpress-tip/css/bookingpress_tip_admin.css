@@ -1,0 +1,83 @@
+.bpa-aaf--payment-details .bpa-aaf-pd__tip-module{
+	padding: 16px 24px;
+	border-bottom: 1px solid var(--bpa-dt-black-100);
+}
+.bpa-aaf--payment-details .bpa-aaf-pd__tip-module{
+	border-bottom: none;
+}
+.bpa-aaf-pd__tip-module .bpa-aaf--bs__tip-module-textbox button.bpa-btn{
+	position: absolute;
+    right: 0;
+	top: 25px;
+    border-radius: var(--bpa-radius-4px);
+}
+.bpa-bs__tip-validation{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.bpa-bs__tip-validation span{
+    font-size: 16px;
+    margin-right: 4px;
+}
+.bpa-bs__tip-validation p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.bpa-bs__tip-validation.--is-error span,
+.bpa-bs__tip-validation.--is-error p{
+    color: var(--bpa-sc-danger);
+}
+.bpa-bs__tip-validation.--is-success span,
+.bpa-bs__tip-validation.--is-success p{
+    color: var(--bpa-pt-main-green);
+}
+
+.bpa-module--bs-amount-details .bpa-fm--bs-amount-item.bpa-is-tip-applied{
+    padding: 12px 16px 12px 16px;
+}
+.bpa-is-tip-applied h4.is-price{
+    color: var(--bpa-dt-black-300) !important;
+	text-align: right;
+}
+.bpa-is-tip-applied .bpa-ta__amount{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bpa-is-tip-applied .bpa-ta__amount .bpa-taa__edit-icon{
+    margin-right: 6px;
+    display: inherit;
+}
+.bpa-ta__amount .bpa-taa__edit-icon span.material-icons-round{
+    font-size: 16px;
+    color: var(--bpa-dt-black-200);
+}
+@media (max-width: 1024px){    
+    .bpa-aaf-pd__tip-module .bpa-aaf--bs__tip-module-textbox button.bpa-btn{
+        padding: 10px 18px;
+    }
+}
+@media (max-width: 767px){
+    .bpa-aaf--payment-details .bpa-aaf-pd__tip-module{
+        padding: 12px;
+    }
+    .bpa-aaf-pd__tip-module .bpa-aaf--bs__tip-module-textbox button.bpa-btn{
+        font-size: 0;
+        padding: 8px 20px;
+        line-height: unset;
+    }
+    .bpa-aaf-pd__tip-module .bpa-aaf--bs__tip-module-textbox button.bpa-btn::before {
+        content: '';		
+        background-color: var(--bpa-cl-white);
+		-webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M9 16.2l-3.5-3.5c-.39-.39-1.01-.39-1.4 0-.39.39-.39 1.01 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7c.39-.39.39-1.01 0-1.4-.39-.39-1.01-.39-1.4 0L9 16.2z'/%3E%3C/svg%3E");
+		mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M9 16.2l-3.5-3.5c-.39-.39-1.01-.39-1.4 0-.39.39-.39 1.01 0 1.4l4.19 4.19c.39.39 1.02.39 1.41 0L20.3 7.7c.39-.39.39-1.01 0-1.4-.39-.39-1.01-.39-1.4 0L9 16.2z'/%3E%3C/svg%3E");
+		width: 18px;
+		height: 18px;
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+    }
+}

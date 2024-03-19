@@ -1,0 +1,1070 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress - Location Addon v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-03-06 06:07:45+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bookingpress-location.php:0
+#@ bookingpress-location
+msgid "BookingPress - Location Addon"
+msgstr "BookingPress - Complemento de ubicación"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: bookingpress-location.php:0
+#@ bookingpress-location
+msgid "https://www.bookingpressplugin.com/"
+msgstr "https://www.bookingpressplugin.com/"
+
+#. translators: plugin header field 'Description'
+#: bookingpress-location.php:0
+#@ bookingpress-location
+msgid "Extension for BookingPress plugin to location integration."
+msgstr "Extensión para el complemento de BookingPress para la integración de la ubicación."
+
+#. translators: plugin header field 'Author'
+#: bookingpress-location.php:0
+#@ bookingpress-location
+msgid "Repute InfoSystems"
+msgstr "Repute InfoSystems"
+
+#: core/classes/class.bookingpress-location-booking-form.php:422
+#: core/classes/class.bookingpress-location-booking-form.php:438
+#: core/classes/class.bookingpress-location-booking-form.php:450
+#: core/classes/class.bookingpress-location-booking-form.php:501
+#: core/classes/class.bookingpress-location-booking-form.php:508
+#: core/classes/class.bookingpress-location-services.php:301
+#: core/classes/class.bookingpress-location-services.php:320
+#: core/classes/class.bookingpress-location-services.php:530
+#: core/classes/class.bookingpress-location-services.php:539
+#: core/classes/class.bookingpress-location-services.php:701
+#: core/classes/class.bookingpress-location-services.php:791
+#: core/classes/class.bookingpress-location-services.php:803
+#: core/classes/class.bookingpress-location-services.php:816
+#: core/classes/class.bookingpress-location-services.php:846
+#: core/classes/class.bookingpress-location-services.php:863
+#: core/classes/class.bookingpress-location-services.php:875
+#: core/classes/class.bookingpress-location-workhours.php:114
+#: core/classes/class.bookingpress-location-workhours.php:143
+#: core/classes/class.bookingpress-location-workhours.php:164
+#: core/classes/class.bookingpress-location-workhours.php:215
+#: core/classes/class.bookingpress-location-workhours.php:1170
+#: core/classes/class.bookingpress-location-workhours.php:1219
+#: core/classes/class.bookingpress-location-workhours.php:1269
+#: core/classes/class.bookingpress-location-workhours.php:1284
+#: core/classes/class.bookingpress-location-workhours.php:1326
+#: core/classes/class.bookingpress-location-workhours.php:1348
+#: core/classes/class.bookingpress-location-workhours.php:1356
+#: core/classes/class.bookingpress-location-workhours.php:1370
+#: core/classes/class.bookingpress-location-workhours.php:1379
+#: core/classes/class.bookingpress-location-workhours.php:1388
+#: core/classes/class.bookingpress-location-workhours.php:1424
+#: core/classes/class.bookingpress-location-workhours.php:1464
+#: core/classes/class.bookingpress-location-workhours.php:1472
+#: core/classes/class.bookingpress-location-workhours.php:1484
+#: core/classes/class.bookingpress-location-workhours.php:1493
+#: core/classes/class.bookingpress-location-workhours.php:1502
+#: core/classes/class.bookingpress-location-workhours.php:1538
+#: core/classes/class.bookingpress-location.php:372
+#: core/classes/class.bookingpress-location.php:1027
+#: core/classes/class.bookingpress-location.php:1691
+#: core/classes/class.bookingpress-location.php:1701
+#: core/classes/class.bookingpress-location.php:2094
+#: core/classes/class.bookingpress-location.php:2102
+#: core/classes/class.bookingpress-location.php:2183
+#: core/classes/class.bookingpress-location.php:2191
+#: core/classes/class.bookingpress-location.php:2238
+#: core/classes/class.bookingpress-location.php:2246
+#: core/classes/class.bookingpress-location.php:2315
+#: core/classes/class.bookingpress-location.php:2323
+#: core/classes/class.bookingpress-location.php:2378
+#: core/classes/class.bookingpress-location.php:2386
+#: core/classes/class.bookingpress-location.php:2824
+#: core/classes/class.bookingpress-location.php:2869
+#: core/classes/class.bookingpress-location.php:2884
+#: core/classes/class.bookingpress-location.php:2911
+#: core/classes/class.bookingpress-location.php:2922
+#: core/classes/class.bookingpress-location.php:2974
+#: core/classes/class.bookingpress-location.php:2998
+#: core/classes/class.bookingpress-location.php:3120
+#: core/classes/class.bookingpress-location.php:3144
+#: core/classes/class.bookingpress-location.php:3157
+#: core/classes/class.bookingpress-location.php:3193
+#: core/classes/class.bookingpress-location.php:3234
+#: core/classes/class.bookingpress-location.php:3245
+#: core/classes/class.bookingpress-location.php:3256
+#: core/classes/class.bookingpress-location.php:3269
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-location
+msgid "Error"
+msgstr "Error"
+
+#: core/classes/class.bookingpress-location-booking-form.php:423
+#@ bookingpress-location
+msgid "No location selected"
+msgstr "Ninguna ubicación seleccionada"
+
+#: core/classes/class.bookingpress-location-booking-form.php:439
+#@ bookingpress-location
+msgid "Selected service and staff are not available with the selected location"
+msgstr "El servicio y el personal seleccionados no están disponibles en la ubicación seleccionada"
+
+#: core/classes/class.bookingpress-location-booking-form.php:451
+#@ bookingpress-location
+msgid "Selected service is not available with the selected location"
+msgstr "El servicio seleccionado no está disponible con la ubicación seleccionada"
+
+#: core/classes/class.bookingpress-location-booking-form.php:502
+#@ bookingpress-location
+msgid "Sorry, Your request can not be processed due to security reason."
+msgstr "Lo sentimos, su solicitud no puede ser procesada por razones de seguridad."
+
+#: core/classes/class.bookingpress-location-booking-form.php:509
+#@ bookingpress-location
+msgid "Something went wrong while processing with request"
+msgstr "Algo salió mal al procesar con la solicitud"
+
+#: core/classes/class.bookingpress-location-booking-form.php:792
+#: core/classes/class.bookingpress-location-workhours.php:1201
+#: core/classes/class.bookingpress-location-workhours.php:1245
+#: core/classes/class.bookingpress-location.php:1727
+#: core/classes/class.bookingpress-location.php:2163
+#: core/classes/class.bookingpress-location.php:2215
+#: core/classes/class.bookingpress-location.php:2264
+#: core/classes/class.bookingpress-location.php:2357
+#: core/classes/class.bookingpress-location.php:2452
+#: core/classes/class.bookingpress-location.php:2459
+#@ bookingpress-location
+msgid "Success"
+msgstr "Éxito"
+
+#: core/classes/class.bookingpress-location-booking-form.php:793
+#@ bookingpress-location
+msgid "Data retrieved successfully"
+msgstr "Datos recuperados con éxito"
+
+#: core/classes/class.bookingpress-location-customize.php:61
+#@ bookingpress-location
+msgid "Location title"
+msgstr "Título de la ubicación"
+
+#: core/classes/class.bookingpress-location-customize.php:70
+#@ bookingpress-location
+msgid "Cart location title"
+msgstr "Título de la ubicación del carrito"
+
+#: core/classes/class.bookingpress-location-customize.php:78
+#: core/classes/class.bookingpress-location.php:423
+#: core/classes/class.bookingpress-location.php:455
+#: core/classes/class.bookingpress-location.php:462
+#@ bookingpress-location
+msgid "Location Title"
+msgstr "Título de la ubicación"
+
+#: core/classes/class.bookingpress-location-customize.php:85
+#: core/classes/class.bookingpress-location.php:510
+#@ bookingpress-location
+msgid "Location step labels"
+msgstr "Etiquetas de paso de ubicación"
+
+#: core/classes/class.bookingpress-location-customize.php:87
+#: core/classes/class.bookingpress-location.php:428
+#: core/classes/class.bookingpress-location.php:467
+#@ bookingpress-location
+msgid "Step location"
+msgstr "ubicación del paso"
+
+#: core/classes/class.bookingpress-location-customize.php:111
+#: core/classes/class.bookingpress-location-customize.php:113
+#: core/classes/class.bookingpress-location-services.php:107
+#: core/classes/class.bookingpress-location-services.php:338
+#: core/classes/class.bookingpress-location-services.php:642
+#: core/classes/class.bookingpress-location.php:507
+#: core/classes/class.bookingpress-location.php:1198
+#: core/classes/class.bookingpress-location.php:1219
+#: core/classes/class.bookingpress-location.php:1437
+#: core/classes/class.bookingpress-location.php:1446
+#: core/classes/class.bookingpress-location.php:1457
+#: core/classes/class.bookingpress-location.php:1479
+#: core/classes/class.bookingpress-location.php:1489
+#: core/classes/class.bookingpress-location.php:1513
+#: core/classes/class.bookingpress-location.php:2043
+#: core/classes/class.bookingpress-location.php:3404
+#: core/classes/class.bookingpress-location.php:3405
+#: core/classes/class.bookingpress-location.php:3644
+#: core/classes/class.bookingpress-location.php:3684
+#: core/classes/class.bookingpress-location.php:3704
+#: core/classes/class.bookingpress-location.php:3720
+#: core/classes/class.bookingpress-location.php:3747
+#: core/views/manage_service_content.php:8
+#@ bookingpress-location
+msgid "Location"
+msgstr "Ubicación"
+
+#: core/classes/class.bookingpress-location-services.php:302
+#: core/classes/class.bookingpress-location-services.php:321
+#: core/classes/class.bookingpress-location-services.php:702
+#@ bookingpress-location
+msgid "Please select the location."
+msgstr "Seleccione la ubicación."
+
+#: core/classes/class.bookingpress-location-services.php:340
+#: core/classes/class.bookingpress-location-services.php:681
+#: core/classes/class.bookingpress-location-services.php:685
+#: core/classes/class.bookingpress-location-services.php:687
+#: core/classes/class.bookingpress-location.php:664
+#: core/classes/class.bookingpress-location.php:666
+#: core/classes/class.bookingpress-location.php:667
+#: core/classes/class.bookingpress-location.php:1005
+#: core/classes/class.bookingpress-location.php:1007
+#: core/classes/class.bookingpress-location.php:1422
+#: core/views/manage_service_content_outside_dialog.php:21
+#: core/views/manage_service_content_outside_dialog.php:24
+#@ bookingpress-location
+msgid "Select Location"
+msgstr "Seleccionar ubicación"
+
+#: core/classes/class.bookingpress-location-services.php:456
+#: core/classes/class.bookingpress-location-services.php:474
+#: core/classes/class.bookingpress-location-services.php:654
+#: core/classes/class.bookingpress-location.php:1632
+#: core/classes/class.bookingpress-location.php:2020
+#: core/classes/class.bookingpress-location.php:3390
+#@ bookingpress-location
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#: core/classes/class.bookingpress-location-services.php:531
+#: core/classes/class.bookingpress-location-services.php:1028
+#: core/classes/class.bookingpress-location.php:1570
+#@ bookingpress-location
+msgid "Please select location"
+msgstr "Por favor seleccione la ubicación"
+
+#: core/classes/class.bookingpress-location-services.php:540
+#@ bookingpress-location
+msgid "Please select at least one location"
+msgstr "Seleccione al menos una ubicación"
+
+#: core/classes/class.bookingpress-location-services.php:792
+#: core/classes/class.bookingpress-location-services.php:847
+#@ bookingpress-location
+msgid "Location already added"
+msgstr "Ubicación ya agregada"
+
+#: core/classes/class.bookingpress-location-services.php:1038
+#@ bookingpress-location
+msgid "Please enter maximum capacity"
+msgstr "Por favor, introduzca la capacidad máxima"
+
+#: core/classes/class.bookingpress-location-services.php:1054
+#@ bookingpress-location
+msgid "Please enter location price"
+msgstr "Por favor ingrese el precio de la ubicación"
+
+#: core/classes/class.bookingpress-location-workhours.php:115
+#: core/classes/class.bookingpress-location-workhours.php:1270
+#@ bookingpress-location
+msgid "Please Enter Start Time and End Time"
+msgstr "Ingrese la hora de inicio y la hora de finalización"
+
+#: core/classes/class.bookingpress-location-workhours.php:144
+#: core/classes/class.bookingpress-location-workhours.php:1285
+#@ bookingpress-location
+msgid "Special days already exists"
+msgstr "Ya existen días especiales"
+
+#: core/classes/class.bookingpress-location-workhours.php:165
+#@ bookingpress-location
+msgid "Holiday is already exists"
+msgstr "Holiday ya existe"
+
+#: core/classes/class.bookingpress-location-workhours.php:193
+#: core/classes/class.bookingpress-location-workhours.php:1305
+#@ bookingpress-location
+msgid "Ok"
+msgstr "De acuerdo"
+
+#: core/classes/class.bookingpress-location-workhours.php:194
+#: core/classes/class.bookingpress-location-workhours.php:1306
+#: core/views/manage_location.php:122
+#: core/views/manage_location.php:266
+#: core/views/manage_location.php:544
+#: core/views/manage_service_content_outside_dialog.php:55
+#@ bookingpress-location
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: core/classes/class.bookingpress-location-workhours.php:216
+#: core/classes/class.bookingpress-location-workhours.php:1327
+#: core/classes/class.bookingpress-location.php:1702
+#: core/classes/class.bookingpress-location.php:2103
+#: core/classes/class.bookingpress-location.php:2192
+#: core/classes/class.bookingpress-location.php:2247
+#: core/classes/class.bookingpress-location.php:2825
+#: core/classes/class.bookingpress-location.php:2975
+#: core/classes/class.bookingpress-location.php:2999
+#: core/classes/class.bookingpress-location.php:3121
+#: core/classes/class.bookingpress-location.php:3145
+#: core/classes/class.bookingpress-location.php:3194
+#@ bookingpress-location
+msgid "Something went wrong.."
+msgstr "Algo salió mal.."
+
+#: core/classes/class.bookingpress-location-workhours.php:236
+#: core/classes/class.bookingpress-location-workhours.php:2011
+#@ bookingpress-location
+msgid "All Special Days"
+msgstr "Todos los días especiales"
+
+#: core/classes/class.bookingpress-location-workhours.php:250
+#: core/classes/class.bookingpress-location-workhours.php:2025
+#@ bookingpress-location
+msgid "No Special Days Available"
+msgstr "No hay días especiales disponibles"
+
+#: core/classes/class.bookingpress-location-workhours.php:261
+#: core/classes/class.bookingpress-location-workhours.php:2036
+#@ bookingpress-location
+msgid "Date"
+msgstr "Fecha"
+
+#: core/classes/class.bookingpress-location-workhours.php:266
+#: core/classes/class.bookingpress-location-workhours.php:2041
+#@ bookingpress-location
+msgid "Workhours"
+msgstr "Horas laborales"
+
+#: core/classes/class.bookingpress-location-workhours.php:271
+#: core/classes/class.bookingpress-location-workhours.php:929
+#: core/classes/class.bookingpress-location-workhours.php:2046
+#: core/classes/class.bookingpress-location-workhours.php:2146
+#@ bookingpress-location
+msgid "Breaks"
+msgstr "descansos"
+
+#: core/classes/class.bookingpress-location-workhours.php:276
+#: core/classes/class.bookingpress-location-workhours.php:2051
+#: core/views/manage_location.php:423
+#@ bookingpress-location
+msgid "Action"
+msgstr "Acción"
+
+#: core/classes/class.bookingpress-location-workhours.php:309
+#: core/classes/class.bookingpress-location-workhours.php:2084
+#: core/views/manage_location.php:110
+#: core/views/manage_location.php:452
+#@ bookingpress-location
+msgid "Edit"
+msgstr "Editar"
+
+#: core/classes/class.bookingpress-location-workhours.php:317
+#: core/classes/class.bookingpress-location-workhours.php:2092
+#: core/classes/class.bookingpress-location.php:2640
+#: core/views/manage_location.php:118
+#: core/views/manage_location.php:121
+#: core/views/manage_location.php:460
+#@ bookingpress-location
+msgid "Delete"
+msgstr "Borrar"
+
+#: core/classes/class.bookingpress-location-workhours.php:899
+#: core/classes/class.bookingpress-location-workhours.php:2119
+#@ bookingpress-location
+msgid "Monday"
+msgstr "Lunes"
+
+#: core/classes/class.bookingpress-location-workhours.php:900
+#: core/classes/class.bookingpress-location-workhours.php:2120
+#@ bookingpress-location
+msgid "Tuesday"
+msgstr "Martes"
+
+#: core/classes/class.bookingpress-location-workhours.php:901
+#: core/classes/class.bookingpress-location-workhours.php:2121
+#@ bookingpress-location
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: core/classes/class.bookingpress-location-workhours.php:902
+#: core/classes/class.bookingpress-location-workhours.php:2122
+#@ bookingpress-location
+msgid "Thursday"
+msgstr "Jueves"
+
+#: core/classes/class.bookingpress-location-workhours.php:903
+#: core/classes/class.bookingpress-location-workhours.php:2123
+#@ bookingpress-location
+msgid "Friday"
+msgstr "Viernes"
+
+#: core/classes/class.bookingpress-location-workhours.php:904
+#: core/classes/class.bookingpress-location-workhours.php:2124
+#@ bookingpress-location
+msgid "Saturday"
+msgstr "Sábado"
+
+#: core/classes/class.bookingpress-location-workhours.php:905
+#: core/classes/class.bookingpress-location-workhours.php:2125
+#@ bookingpress-location
+msgid "Sunday"
+msgstr "Domingo"
+
+#: core/classes/class.bookingpress-location-workhours.php:911
+#: core/classes/class.bookingpress-location-workhours.php:2131
+#@ bookingpress-location
+msgid "Start Time"
+msgstr "Hora de inicio"
+
+#: core/classes/class.bookingpress-location-workhours.php:919
+#: core/classes/class.bookingpress-location-workhours.php:2137
+#@ bookingpress-location
+msgid "End Time"
+msgstr "Hora de finalización"
+
+#: core/classes/class.bookingpress-location-workhours.php:944
+#: core/classes/class.bookingpress-location-workhours.php:2160
+#@ bookingpress-location
+msgid "Add Break"
+msgstr "Agregar descanso"
+
+#: core/classes/class.bookingpress-location-workhours.php:1045
+#: core/classes/class.bookingpress-location-workhours.php:2173
+#: core/classes/class.bookingpress-location.php:740
+#@ bookingpress-location
+msgid "Select Locations"
+msgstr "Seleccionar ubicaciones"
+
+#: core/classes/class.bookingpress-location-workhours.php:1167
+#: core/classes/class.bookingpress-location-workhours.php:1216
+#: core/classes/class.bookingpress-location.php:368
+#: core/classes/class.bookingpress-location.php:1024
+#: core/classes/class.bookingpress-location.php:1688
+#: core/classes/class.bookingpress-location.php:2091
+#: core/classes/class.bookingpress-location.php:2180
+#: core/classes/class.bookingpress-location.php:2235
+#: core/classes/class.bookingpress-location.php:2312
+#: core/classes/class.bookingpress-location.php:2324
+#: core/classes/class.bookingpress-location.php:2375
+#@ bookingpress-location
+msgid "Sorry. Something went wrong while processing the request"
+msgstr "Lo siento. Algo salió mal al procesar la solicitud"
+
+#: core/classes/class.bookingpress-location-workhours.php:1202
+#: core/classes/class.bookingpress-location-workhours.php:1246
+#@ bookingpress-location
+msgid "Details formatted successfully"
+msgstr "Detalles formateados correctamente"
+
+#: core/classes/class.bookingpress-location-workhours.php:1349
+#: core/classes/class.bookingpress-location-workhours.php:1465
+#@ bookingpress-location
+msgid "Start time is not greater than End time"
+msgstr "La hora de inicio no es mayor que la hora de finalización"
+
+#: core/classes/class.bookingpress-location-workhours.php:1357
+#: core/classes/class.bookingpress-location-workhours.php:1473
+#@ bookingpress-location
+msgid "Start time & End time are not same"
+msgstr "La hora de inicio y la hora de finalización no son las mismas"
+
+#: core/classes/class.bookingpress-location-workhours.php:1371
+#: core/classes/class.bookingpress-location-workhours.php:1425
+#: core/classes/class.bookingpress-location-workhours.php:1485
+#: core/classes/class.bookingpress-location-workhours.php:1539
+#@ bookingpress-location
+msgid "Please enter valid time for break"
+msgstr "Ingrese un tiempo válido para el descanso"
+
+#: core/classes/class.bookingpress-location-workhours.php:1380
+#: core/classes/class.bookingpress-location-workhours.php:1389
+#: core/classes/class.bookingpress-location-workhours.php:1494
+#: core/classes/class.bookingpress-location-workhours.php:1503
+#@ bookingpress-location
+msgid "Break time already added"
+msgstr "Tiempo de descanso ya agregado"
+
+#: core/classes/class.bookingpress-location.php:261
+#@ bookingpress-location
+msgid "BookingPress - Location plugin requires BookingPress Premium Plugin installed and active."
+msgstr "BookingPress: el complemento de ubicación requiere el complemento Premium de BookingPress instalado y activo."
+
+#: core/classes/class.bookingpress-location.php:285
+#: core/classes/class.bookingpress-location.php:299
+#: core/classes/class.bookingpress-location.php:331
+#: core/classes/class.bookingpress-location.php:343
+#: core/classes/class.bookingpress-location.php:3502
+#@ bookingpress-location
+msgid "Please activate license of BookingPress premium plugin to use BookingPress Location Add-on"
+msgstr "Active la licencia del complemento premium de BookingPress para usar el complemento de ubicación de BookingPress"
+
+#. translators: 1. Redirect URL link starts 2.Redirect URL link ends
+#. translators: 1. Redirect URL link starts. 2. Redirect URL Link ends
+#: core/classes/class.bookingpress-location.php:287
+#: core/classes/class.bookingpress-location.php:301
+#: core/classes/class.bookingpress-location.php:333
+#: core/classes/class.bookingpress-location.php:345
+#: core/classes/class.bookingpress-location.php:3504
+#, php-format
+#@ bookingpress-location
+msgid "Please %s Click Here %s to Continue"
+msgstr "Por favor, %s haga clic aquí %s para continuar"
+
+#: core/classes/class.bookingpress-location.php:403
+#@ bookingpress-location
+msgid "Something went wrong while updating the file"
+msgstr "Algo salió mal al actualizar el archivo"
+
+#: core/classes/class.bookingpress-location.php:445
+#: core/classes/class.bookingpress-location.php:491
+#@ bookingpress-location
+msgid "Location Name"
+msgstr "Nombre del lugar"
+
+#: core/classes/class.bookingpress-location.php:446
+#: core/classes/class.bookingpress-location.php:492
+#: core/views/manage_location.php:66
+#@ bookingpress-location
+msgid "Address"
+msgstr "DIRECCIÓN"
+
+#: core/classes/class.bookingpress-location.php:447
+#: core/classes/class.bookingpress-location.php:493
+#: core/views/manage_location.php:357
+#@ bookingpress-location
+msgid "Description"
+msgstr "Descripción"
+
+#: core/classes/class.bookingpress-location.php:475
+#: core/classes/class.bookingpress-location.php:582
+#@ bookingpress-location
+msgid "No location selected for the booking"
+msgstr "No se ha seleccionado ninguna ubicación para la reserva"
+
+#: core/classes/class.bookingpress-location.php:572
+#@ bookingpress-location
+msgid "Location name"
+msgstr "Nombre del lugar"
+
+#: core/classes/class.bookingpress-location.php:1402
+#: core/classes/class.bookingpress-location.php:1554
+#: core/views/manage_service_content.php:24
+#@ bookingpress-location
+msgid "All Locations"
+msgstr "Todas las localizaciones"
+
+#: core/classes/class.bookingpress-location.php:1431
+#@ bookingpress-location
+msgid "All Location"
+msgstr "Toda la ubicación"
+
+#: core/classes/class.bookingpress-location.php:1728
+#@ bookingpress-location
+msgid "Service position has been changed successfully."
+msgstr "La posición de servicio se ha cambiado con éxito."
+
+#: core/classes/class.bookingpress-location.php:1785
+#@ bookingpress-location
+msgid "Location Information"
+msgstr "Información sobre la ubicación"
+
+#: core/classes/class.bookingpress-location.php:1787
+#@ bookingpress-location
+msgid "Show both phone number and address"
+msgstr "Mostrar tanto el número de teléfono como la dirección"
+
+#: core/classes/class.bookingpress-location.php:1788
+#@ bookingpress-location
+msgid "Show only address"
+msgstr "Mostrar solo dirección"
+
+#: core/classes/class.bookingpress-location.php:1789
+#@ bookingpress-location
+msgid "Show only phone number"
+msgstr "Mostrar solo número de teléfono"
+
+#: core/classes/class.bookingpress-location.php:1790
+#@ bookingpress-location
+msgid "Don't show both phone number and address"
+msgstr "No mostrar tanto el número de teléfono como la dirección"
+
+#: core/classes/class.bookingpress-location.php:1902
+#@ bookingpress-location
+msgid "Location Selection"
+msgstr "Selección de ubicación"
+
+#: core/classes/class.bookingpress-location.php:2066
+#@ bookingpress-location
+msgid "Location Settings"
+msgstr "Configuración de ubicación"
+
+#: core/classes/class.bookingpress-location.php:2071
+#@ bookingpress-location
+msgid "Allow staffmember to serve on multiple locations"
+msgstr "Permita que el miembro del personal sirva en múltiples ubicaciones"
+
+#: core/classes/class.bookingpress-location.php:2161
+#@ bookingpress-location
+msgid "Edit data retrieved successfully"
+msgstr "Editar datos recuperados con éxito"
+
+#: core/classes/class.bookingpress-location.php:2199
+#@ bookingpress-location
+msgid "Please select at-least one location to delete"
+msgstr "Seleccione al menos una ubicación para eliminar"
+
+#: core/classes/class.bookingpress-location.php:2216
+#: core/classes/class.bookingpress-location.php:2265
+#@ bookingpress-location
+msgid "Location has been deleted successfully."
+msgstr "La ubicación se ha eliminado correctamente."
+
+#: core/classes/class.bookingpress-location.php:2218
+#@ bookingpress-location
+msgid "Something went wrong while deleting locations."
+msgstr "Algo salió mal al eliminar ubicaciones."
+
+#: core/classes/class.bookingpress-location.php:2220
+#@ bookingpress-location
+msgid "Some of the locations has not been deleted sucessfully."
+msgstr "Algunas de las ubicaciones no se han eliminado correctamente."
+
+#: core/classes/class.bookingpress-location.php:2274
+#@ bookingpress-location
+msgid " I am sorry"
+msgstr "Lo siento"
+
+#: core/classes/class.bookingpress-location.php:2274
+#@ bookingpress-location
+msgid "This location can not be deleted because it has one or more appointments associated with it"
+msgstr "Esta ubicación no se puede eliminar porque tiene una o más citas asociadas."
+
+#: core/classes/class.bookingpress-location.php:2277
+#@ bookingpress-location
+msgid "warning"
+msgstr "advertencia"
+
+#: core/classes/class.bookingpress-location.php:2358
+#@ bookingpress-location
+msgid "Location data fetched successfully"
+msgstr "Datos de ubicación obtenidos con éxito"
+
+#: core/classes/class.bookingpress-location.php:2387
+#@ bookingpress-location
+msgid "Something went wrong while save location details"
+msgstr "Algo salió mal al guardar los detalles de la ubicación"
+
+#: core/classes/class.bookingpress-location.php:2453
+#@ bookingpress-location
+msgid "Location has been added successfully."
+msgstr "La ubicación se ha agregado con éxito."
+
+#: core/classes/class.bookingpress-location.php:2460
+#@ bookingpress-location
+msgid "Location has been updated successfully."
+msgstr "La ubicación se ha actualizado correctamente."
+
+#: core/classes/class.bookingpress-location.php:2470
+#@ bookingpress-location
+msgid "Please add valid data for add location"
+msgstr "Por favor agregue datos válidos para agregar ubicación"
+
+#: core/classes/class.bookingpress-location.php:2636
+#@ bookingpress-location
+msgid "Bulk Action"
+msgstr "Acción masiva"
+
+#: core/classes/class.bookingpress-location.php:2696
+#@ bookingpress-location
+msgid "Please enter location name"
+msgstr "Ingrese el nombre de la ubicación"
+
+#: core/classes/class.bookingpress-location.php:2870
+#@ bookingpress-location
+msgid "Multiple files not allowed"
+msgstr "Múltiples archivos no permitidos"
+
+#: core/classes/class.bookingpress-location.php:2879
+#@ bookingpress-location
+msgid "Something went wrong"
+msgstr "Algo salió mal"
+
+#: core/classes/class.bookingpress-location.php:2912
+#@ bookingpress-location
+msgid "Please upload jpg/png file only"
+msgstr "Cargue solo el archivo jpg/png"
+
+#: core/classes/class.bookingpress-location.php:2923
+#@ bookingpress-location
+msgid "Please upload maximum 1 MB file only"
+msgstr "Cargue un archivo de 1 MB como máximo"
+
+#: core/classes/class.bookingpress-location.php:3158
+#@ bookingpress-location
+msgid "Please select any action..."
+msgstr "Seleccione cualquier acción..."
+
+#: core/classes/class.bookingpress-location.php:3235
+#@ bookingpress-location
+msgid "Please select service"
+msgstr "Por favor seleccione el servicio"
+
+#: core/classes/class.bookingpress-location.php:3246
+#@ bookingpress-location
+msgid "Please set capacity"
+msgstr "Por favor, establezca la capacidad"
+
+#: core/classes/class.bookingpress-location.php:3458
+#: core/classes/class.bookingpress-location.php:3489
+#@ bookingpress-location
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error. Por favor intente de nuevo."
+
+#. translators: the expiry date.
+#: core/classes/class.bookingpress-location.php:3466
+#, php-format
+#@ bookingpress-location
+msgid "Your license key expired on %s."
+msgstr "Su clave de licencia expiró el %s."
+
+#: core/classes/class.bookingpress-location.php:3470
+#@ bookingpress-location
+msgid "Your license key has been disabled."
+msgstr "Su clave de licencia ha sido deshabilitada."
+
+#: core/classes/class.bookingpress-location.php:3473
+#@ bookingpress-location
+msgid "Invalid license."
+msgstr "Licencia invalida."
+
+#: core/classes/class.bookingpress-location.php:3477
+#@ bookingpress-location
+msgid "Your license is not active for this URL."
+msgstr "Su licencia no está activa para esta URL."
+
+#: core/classes/class.bookingpress-location.php:3480
+#: core/classes/class.bookingpress-location.php:3483
+#@ bookingpress-location
+msgid "This appears to be an invalid license key for your selected package."
+msgstr "Parece que se trata de una clave de licencia no válida para el paquete seleccionado."
+
+#: core/classes/class.bookingpress-location.php:3486
+#@ bookingpress-location
+msgid "Your license key has reached its activation limit."
+msgstr "Su clave de licencia ha alcanzado su límite de activación."
+
+#. translators: the plugin name.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:257
+#, php-format
+#@ bookingpress-location
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:263
+#@ bookingpress-location
+msgid "Contact your network administrator to install the update."
+msgstr "Póngase en contacto con su administrador de red para instalar la actualización."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:268
+#, php-format
+#@ bookingpress-location
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sVer versión %2$s detalles%3$s."
+
+#. translators: 1. link for changelog 2. version name 3. opening anchor tag for update link 4. closing tag for update link
+#: core/classes/class.bookingpress_pro_plugin_updater.php:277
+#, php-format
+#@ bookingpress-location
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVer versión %2$s detalles%3$s o %4$actualizar ahora%5$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:288
+#@ bookingpress-location
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-location
+msgid "You do not have permission to install plugin updates"
+msgstr "No tiene permiso para instalar actualizaciones de complementos"
+
+#: core/views/manage_customize_location_preview.php:22
+#: core/views/manage_customize_location_preview.php:34
+#: core/views/manage_customize_location_preview.php:46
+#: core/views/manage_customize_location_preview.php:57
+#@ bookingpress-location
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: core/views/manage_customize_location_preview.php:23
+#: core/views/manage_customize_location_preview.php:35
+#: core/views/manage_customize_location_preview.php:47
+#: core/views/manage_customize_location_preview.php:58
+#@ bookingpress-location
+msgid "31 4th Drive, Westfield,wi, 53964  United States"
+msgstr "31 4th Drive, Westfield,wi, 53964 Estados Unidos"
+
+#: core/views/manage_customize_location_preview.php:24
+#: core/views/manage_customize_location_preview.php:36
+#: core/views/manage_customize_location_preview.php:59
+#@ bookingpress-location
+msgid "+1-202-555-0101"
+msgstr "+1-202-555-0101"
+
+#: core/views/manage_location.php:4
+#@ bookingpress-location
+msgid "Staff Member"
+msgstr "Miembro del equipo"
+
+#: core/views/manage_location.php:5
+#@ bookingpress-location
+msgid "Staff Members"
+msgstr "Los miembros del personal"
+
+#: core/views/manage_location.php:10
+#@ bookingpress-location
+msgid "Manage Locations"
+msgstr "Administrar ubicaciones"
+
+#: core/views/manage_location.php:16
+#: core/views/manage_location.php:39
+#: core/views/manage_location.php:378
+#: core/views/manage_service_content.php:15
+#@ bookingpress-location
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: core/views/manage_location.php:35
+#@ bookingpress-location
+msgid "No Record Found!"
+msgstr "¡Ningún record fue encontrado!"
+
+#: core/views/manage_location.php:56
+#@ bookingpress-location
+msgid "Name"
+msgstr "Nombre"
+
+#: core/views/manage_location.php:61
+#@ bookingpress-location
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: core/views/manage_location.php:84
+#@ bookingpress-location
+msgid "One or more appointments are associated with this location,"
+msgstr "Una o más citas están asociadas con esta ubicación,"
+
+#: core/views/manage_location.php:85
+#@ bookingpress-location
+msgid "so you will not be able to delete it"
+msgstr "por lo que no podrás borrarlo"
+
+#: core/views/manage_location.php:92
+#@ bookingpress-location
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#: core/views/manage_location.php:124
+#@ bookingpress-location
+msgid "Are you sure you want to delete this location?"
+msgstr "¿Está seguro de que desea eliminar esta ubicación?"
+
+#: core/views/manage_location.php:148
+#@ bookingpress-location
+msgid " Items Selected"
+msgstr "Elementos seleccionados"
+
+#: core/views/manage_location.php:151
+#@ bookingpress-location
+msgid "Select"
+msgstr "Seleccionar"
+
+#: core/views/manage_location.php:156
+#@ bookingpress-location
+msgid "Go"
+msgstr "Ir"
+
+#: core/views/manage_location.php:253
+#: core/views/manage_service_content_outside_dialog.php:6
+#@ bookingpress-location
+msgid "Add Location"
+msgstr "Agregar Direccion"
+
+#: core/views/manage_location.php:254
+#: core/views/manage_service_content_outside_dialog.php:5
+#@ bookingpress-location
+msgid "Edit Location"
+msgstr "Editar ubicación"
+
+#: core/views/manage_location.php:258
+#: core/views/manage_location.php:543
+#@ bookingpress-location
+msgid "Save"
+msgstr "Ahorrar"
+
+#: core/views/manage_location.php:282
+#@ bookingpress-location
+msgid "Basic Details"
+msgstr "Detalles básicos"
+
+#: core/views/manage_location.php:305
+#@ bookingpress-location
+msgid "Please upload jpg/png/webp file"
+msgstr "Cargue el archivo jpg/png/webp"
+
+#: core/views/manage_location.php:320
+#@ bookingpress-location
+msgid "Location Name:"
+msgstr "Nombre del lugar:"
+
+#: core/views/manage_location.php:322
+#@ bookingpress-location
+msgid "Enter location name"
+msgstr "Ingrese el nombre de la ubicación"
+
+#: core/views/manage_location.php:329
+#@ bookingpress-location
+msgid "Phone"
+msgstr "Teléfono"
+
+#: core/views/manage_location.php:341
+#@ bookingpress-location
+msgid "Address:"
+msgstr "DIRECCIÓN:"
+
+#: core/views/manage_location.php:343
+#@ bookingpress-location
+msgid "Enter address"
+msgstr "Ingresa la direccion"
+
+#: core/views/manage_location.php:355
+#@ bookingpress-location
+msgid "Description:"
+msgstr "Descripción:"
+
+#: core/views/manage_location.php:371
+#@ bookingpress-location
+msgid "Assigned Service"
+msgstr "Servicio Asignado"
+
+#: core/views/manage_location.php:396
+#@ bookingpress-location
+msgid "No Services Assigned"
+msgstr "Sin servicios asignados"
+
+#: core/views/manage_location.php:407
+#@ bookingpress-location
+msgid "Service Name"
+msgstr "Nombre del Servicio"
+
+#: core/views/manage_location.php:492
+#@ bookingpress-location
+msgid "Add Service"
+msgstr "Agregar servicio"
+
+#: core/views/manage_location.php:507
+#: core/views/manage_location.php:509
+#@ bookingpress-location
+msgid "Select Service"
+msgstr "Seleccionar servicio"
+
+#: core/views/manage_location.php:418
+#: core/views/manage_location.php:527
+#: core/views/manage_service_content_outside_dialog.php:40
+#@ bookingpress-location
+msgid "Max Capacity"
+msgstr "Máxima capacidad"
+
+#: core/views/manage_service_content.php:38
+#@ bookingpress-location
+msgid "No Locations Assigned"
+msgstr "Sin ubicaciones asignadas"
+
+#: core/views/manage_service_content_outside_dialog.php:56
+#@ bookingpress-location
+msgid "Add"
+msgstr "Agregar"
+
+#: core/views/manage_service_content_outside_dialog.php:57
+#@ bookingpress-location
+msgid "Update"
+msgstr "Actualizar"
+
+#: core/classes/class.bookingpress-location.php:269
+#@ bookingpress-location
+msgid "It's Required to update the BookingPress Premium Plugin to version 2.6.1 or higher in order to use the BookingPress Location plugin"
+msgstr "Es necesario actualizar el complemento Premium de BookingPress a la versión 2.6.1 o superior para usar el complemento de ubicación de BookingPress"
+
+#: core/classes/class.bookingpress-location.php:3423
+#@ bookingpress-location
+msgid "Please select any location to book an appointment. "
+msgstr "Seleccione cualquier ubicación para reservar una cita."
+
+#. translators: plugin header field 'Version'
+#: bookingpress-location.php:0
+#@ bookingpress-location
+msgid "1.2"
+msgstr "1.2"
+
+#: core/classes/class.bookingpress-location-services.php:804
+#: core/classes/class.bookingpress-location-services.php:864
+#@ bookingpress-location
+msgid "Please select min and max capacity."
+msgstr "Seleccione la capacidad mínima y máxima."
+
+#: core/classes/class.bookingpress-location-services.php:817
+#: core/classes/class.bookingpress-location-services.php:876
+#@ bookingpress-location
+msgid "Location min capacity should not be greater than max capacity."
+msgstr "La capacidad mínima de la ubicación no debe ser mayor que la capacidad máxima."
+
+#: core/classes/class.bookingpress-location-services.php:1046
+#@ bookingpress-location
+msgid "Please enter minimum capacity"
+msgstr "Por favor introduce la capacidad mínima"
+
+#: core/classes/class.bookingpress-location.php:3257
+#@ bookingpress-location
+msgid "Please set min capacity"
+msgstr "Por favor establezca la capacidad mínima"
+
+#: core/classes/class.bookingpress-location.php:3270
+#@ bookingpress-location
+msgid "Service min capacity should not be greater than max capacity."
+msgstr "La capacidad mínima del servicio no debe ser mayor que la capacidad máxima."
+
+#: core/views/manage_location.php:413
+#: core/views/manage_location.php:519
+#: core/views/manage_service_content_outside_dialog.php:32
+#@ bookingpress-location
+msgid "Min Capacity"
+msgstr "Capacidad mínima"
+
+#: core/views/manage_service_content.php:51
+#@ bookingpress-location
+msgid "Min Capacity:"
+msgstr "Capacidad mínima:"
+
+#: core/views/manage_service_content.php:53
+#@ bookingpress-location
+msgid " Max Capacity:"
+msgstr "Máxima capacidad:"
+

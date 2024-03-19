@@ -1,0 +1,14 @@
+.bpa-is-location-val__summary .bpa-lvs__label{
+    border-radius: 0 var(--bpa-radius-4px) var(--bpa-radius-4px) 0;
+}
+
+.bpa-fm-li--col-item .bpa-fm-li__card .bpa-li-col__image {
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+@media (max-width: 576px) {
+    .bpa-is-location-val__summary .bpa-lvs__label{
+        border-radius: 0 var(--bpa-radius-4px) var(--bpa-radius-4px) 0;
+    }
+}

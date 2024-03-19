@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress Tip Addon v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-12-07 09:01:58+0000\n"
+"Last-Translator: admin <testrepute@outlook.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bookingpress-tip.php:0
+#@ bookingpress-tip
+msgid "BookingPress Tip Addon"
+msgstr "BookingPress Tip Addon"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: bookingpress-tip.php:0
+#@ bookingpress-tip
+msgid "https://www.bookingpressplugin.com/"
+msgstr "https://www.bookingpressplugin.com/"
+
+#. translators: plugin header field 'Description'
+#: bookingpress-tip.php:0
+#@ bookingpress-tip
+msgid "Extension for BookingPress plugin to apply tip on appointment booking"
+msgstr "Extensión para el complemento BookingPress para aplicar consejos sobre la reserva de citas"
+
+#. translators: plugin header field 'Author'
+#: bookingpress-tip.php:0
+#@ bookingpress-tip
+msgid "Repute InfoSystems"
+msgstr "Repute InfoSystems"
+
+#: core/classes/class.bookingpress-tip.php:1101
+#: core/classes/class.bookingpress-tip.php:1268
+#: core/classes/class.bookingpress-tip.php:1281
+#@ bookingpress-tip
+msgid "Tip"
+msgstr "Consejo"
+
+#: core/classes/class.bookingpress-tip.php:1823
+#: core/classes/class.bookingpress-tip.php:1985
+#: core/classes/class.bookingpress-tip.php:2003
+#: core/views/upgrade_latest_tip_data.php:11
+#@ bookingpress-tip
+msgid "Apply"
+msgstr "Aplicar"
+
+#: core/classes/class.bookingpress-tip.php:1482
+#: core/classes/class.bookingpress-tip.php:1489
+#: core/classes/class.bookingpress-tip.php:1504
+#: core/classes/class.bookingpress-tip.php:1513
+#: core/classes/class.bookingpress-tip.php:1521
+#: core/classes/class.bookingpress-tip.php:1720
+#: core/classes/class.bookingpress-tip.php:1732
+#: core/classes/class.bookingpress-tip.php:1741
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-tip
+msgid "Error"
+msgstr "Error"
+
+#: core/classes/class.bookingpress-tip.php:1483
+#@ bookingpress-tip
+msgid "Sorry, Your request can not be processed due to security reason."
+msgstr "Lo sentimos, su solicitud no puede ser procesada por razones de seguridad."
+
+#: core/classes/class.bookingpress-tip.php:1490
+#@ bookingpress-tip
+msgid "Something went wrong.."
+msgstr "Algo salió mal.."
+
+#: core/classes/class.bookingpress-tip.php:1504
+#: core/classes/class.bookingpress-tip.php:1732
+#@ bookingpress-tip
+msgid "Success"
+msgstr "Éxito"
+
+#: core/classes/class.bookingpress-tip.php:1742
+#: core/classes/class.bookingpress-tip.php:1825
+#: core/classes/class.bookingpress-tip.php:1988
+#: core/classes/class.bookingpress-tip.php:2006
+#: core/views/upgrade_latest_tip_data.php:14
+#@ bookingpress-tip
+msgid "Please enter tip amount"
+msgstr "Por favor ingrese el monto de la propina"
+
+#: core/classes/class.bookingpress-tip.php:1532
+#@ bookingpress-tip
+msgid "Please add tip amount"
+msgstr "Agregue el monto de la propina"
+
+#: core/classes/class.bookingpress-tip.php:1542
+#@ bookingpress-tip
+msgid "Tip applied successfully"
+msgstr "Sugerencia aplicada con éxito"
+
+#: core/classes/class.bookingpress-tip.php:1718
+#@ bookingpress-tip
+msgid "Sorry. Something went wrong while processing the request"
+msgstr "Lo siento. Algo salió mal al procesar la solicitud"
+
+#: core/classes/class.bookingpress-tip.php:555
+#: core/classes/class.bookingpress-tip.php:1382
+#: core/classes/class.bookingpress-tip.php:1822
+#: core/classes/class.bookingpress-tip.php:1986
+#: core/classes/class.bookingpress-tip.php:2004
+#: core/views/upgrade_latest_tip_data.php:12
+#@ bookingpress-tip
+msgid "Enter tip amount"
+msgstr "Ingrese el monto de la propina"
+
+#: core/classes/class.bookingpress-tip.php:212
+#: core/classes/class.bookingpress-tip.php:648
+#: core/classes/class.bookingpress-tip.php:649
+#: core/classes/class.bookingpress-tip.php:1861
+#@ bookingpress-tip
+msgid "Tip Inputs labels"
+msgstr "Etiquetas de entradas de sugerencias"
+
+#: core/classes/class.bookingpress-tip.php:165
+#: core/classes/class.bookingpress-tip.php:180
+#: core/classes/class.bookingpress-tip.php:214
+#: core/classes/class.bookingpress-tip.php:612
+#: core/classes/class.bookingpress-tip.php:619
+#: core/classes/class.bookingpress-tip.php:633
+#: core/classes/class.bookingpress-tip.php:1863
+#@ bookingpress-tip
+msgid "Tip label"
+msgstr "Etiqueta de punta"
+
+#: core/classes/class.bookingpress-tip.php:166
+#: core/classes/class.bookingpress-tip.php:181
+#: core/classes/class.bookingpress-tip.php:218
+#: core/classes/class.bookingpress-tip.php:613
+#: core/classes/class.bookingpress-tip.php:620
+#: core/classes/class.bookingpress-tip.php:634
+#: core/classes/class.bookingpress-tip.php:1867
+#@ bookingpress-tip
+msgid "Tip placeholder"
+msgstr "Sugerencia marcador de posición"
+
+#: core/classes/class.bookingpress-tip.php:167
+#: core/classes/class.bookingpress-tip.php:182
+#: core/classes/class.bookingpress-tip.php:222
+#: core/classes/class.bookingpress-tip.php:614
+#: core/classes/class.bookingpress-tip.php:621
+#: core/classes/class.bookingpress-tip.php:635
+#: core/classes/class.bookingpress-tip.php:1871
+#@ bookingpress-tip
+msgid "Tip apply button label"
+msgstr "Consejo aplicar etiqueta de botón"
+
+#: core/classes/class.bookingpress-tip.php:1886
+#@ bookingpress-tip
+msgid "Bookingpress - Tip addon requires Bookingpress Premium Plugin installed and active."
+msgstr "Bookingpress: el complemento Tip requiere el complemento Bookingpress Premium instalado y activo."
+
+#: core/classes/class.bookingpress-tip.php:749
+#: core/classes/class.bookingpress-tip.php:762
+#: core/classes/class.bookingpress-tip.php:792
+#: core/classes/class.bookingpress-tip.php:803
+#: core/classes/class.bookingpress-tip.php:1963
+#@ bookingpress-tip
+msgid "Please activate license of BookingPress premium plugin to use BookingPress tip Add-on"
+msgstr "Active la licencia del complemento premium de BookingPress para usar el complemento de consejos de BookingPress"
+
+#: core/classes/class.bookingpress-tip.php:750
+#: core/classes/class.bookingpress-tip.php:763
+#: core/classes/class.bookingpress-tip.php:793
+#: core/classes/class.bookingpress-tip.php:804
+#: core/classes/class.bookingpress-tip.php:1964
+#, php-format
+#@ bookingpress-tip
+msgid "Please %s Click Here %s to Continue"
+msgstr "Por favor, %s haga clic aquí %s para continuar"
+
+#: core/classes/class.bookingpress-tip.php:1918
+#: core/classes/class.bookingpress-tip.php:1950
+#@ bookingpress-tip
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error. Por favor intente de nuevo."
+
+#: core/classes/class.bookingpress-tip.php:1926
+#, php-format
+#@ bookingpress-tip
+msgid "Your license key expired on %s."
+msgstr "Su clave de licencia expiró el %s."
+
+#: core/classes/class.bookingpress-tip.php:1931
+#@ bookingpress-tip
+msgid "Your license key has been disabled."
+msgstr "Su clave de licencia ha sido deshabilitada."
+
+#: core/classes/class.bookingpress-tip.php:1934
+#@ bookingpress-tip
+msgid "Invalid license."
+msgstr "Licencia invalida."
+
+#: core/classes/class.bookingpress-tip.php:1938
+#@ bookingpress-tip
+msgid "Your license is not active for this URL."
+msgstr "Su licencia no está activa para esta URL."
+
+#: core/classes/class.bookingpress-tip.php:1941
+#: core/classes/class.bookingpress-tip.php:1944
+#@ bookingpress-tip
+msgid "This appears to be an invalid license key for your selected package."
+msgstr "Parece que se trata de una clave de licencia no válida para el paquete seleccionado."
+
+#: core/classes/class.bookingpress-tip.php:1947
+#@ bookingpress-tip
+msgid "Your license key has reached its activation limit."
+msgstr "Su clave de licencia ha alcanzado su límite de activación."
+
+#. translators: the plugin name.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:257
+#, php-format
+#@ bookingpress-tip
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:263
+#@ bookingpress-tip
+msgid "Contact your network administrator to install the update."
+msgstr "Póngase en contacto con su administrador de red para instalar la actualización."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:268
+#, php-format
+#@ bookingpress-tip
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sVer versión %2$s detalles%3$s."
+
+#. translators: 1. link for changelog 2. version name 3. opening anchor tag for update link 4. closing tag for update link
+#: core/classes/class.bookingpress_pro_plugin_updater.php:277
+#, php-format
+#@ bookingpress-tip
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "Póngase en contacto con su administrador de red para instalar la actualización."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:288
+#@ bookingpress-tip
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-tip
+msgid "You do not have permission to install plugin updates"
+msgstr "No tiene permiso para instalar actualizaciones de complementos"
+
+#: core/classes/class.bookingpress-tip.php:431
+#: core/classes/class.bookingpress-tip.php:566
+#: core/classes/class.bookingpress-tip.php:1014
+#: core/classes/class.bookingpress-tip.php:1393
+#: core/classes/class.bookingpress-tip.php:1463
+#@ bookingpress-tip
+msgid "Applied"
+msgstr "Aplicado"
+
+#: core/classes/class.bookingpress-tip.php:554
+#: core/classes/class.bookingpress-tip.php:1381
+#: core/classes/class.bookingpress-tip.php:1821
+#: core/classes/class.bookingpress-tip.php:1984
+#: core/classes/class.bookingpress-tip.php:2002
+#: core/views/upgrade_latest_tip_data.php:10
+#@ bookingpress-tip
+msgid "Give a tip"
+msgstr "Dar una propina"
+
+#: core/classes/class.bookingpress-tip.php:565
+#: core/classes/class.bookingpress-tip.php:1392
+#@ bookingpress-tip
+msgid "Add"
+msgstr "Agregar"
+
+#: core/classes/class.bookingpress-tip.php:579
+#: core/classes/class.bookingpress-tip.php:1406
+#: core/classes/class.bookingpress-tip.php:1824
+#: core/classes/class.bookingpress-tip.php:1987
+#: core/classes/class.bookingpress-tip.php:2005
+#: core/views/upgrade_latest_tip_data.php:13
+#@ bookingpress-tip
+msgid "Tip Applied"
+msgstr "Consejo aplicado"
+
+#: core/classes/class.bookingpress-tip.php:168
+#: core/classes/class.bookingpress-tip.php:183
+#: core/classes/class.bookingpress-tip.php:226
+#: core/classes/class.bookingpress-tip.php:615
+#: core/classes/class.bookingpress-tip.php:622
+#: core/classes/class.bookingpress-tip.php:636
+#: core/classes/class.bookingpress-tip.php:1875
+#@ bookingpress-tip
+msgid "Tip applied title"
+msgstr "Sugerencia de título aplicado"
+
+#: core/classes/class.bookingpress-tip.php:169
+#: core/classes/class.bookingpress-tip.php:184
+#: core/classes/class.bookingpress-tip.php:230
+#: core/classes/class.bookingpress-tip.php:616
+#: core/classes/class.bookingpress-tip.php:623
+#: core/classes/class.bookingpress-tip.php:637
+#: core/classes/class.bookingpress-tip.php:1879
+#@ bookingpress-tip
+msgid "Tip Error Message"
+msgstr "Mensaje de error de la punta"
+
+#. translators: plugin header field 'Version'
+#: bookingpress-tip.php:0
+#@ bookingpress-tip
+msgid "1.4"
+msgstr "1.4"
+
